@@ -42,6 +42,26 @@ def main():
             pass
         page.wait_for_timeout(5000)
 
+        # Diagnóstico temporário para validar a estrutura real do calendário.
+        print("DIAG_URL:", page.url)
+        print("DIAG_TITLE:", page.title())
+        try:
+            print("DIAG_BODY:", page.locator("body").inner_text(timeout=5000)[:5000])
+        except Exception as exc:
+            print("DIAG_BODY_ERROR:", type(exc).__name__)
+        try:
+            controls = page.locator("button, [role='button'], [role='gridcell']")
+            print("DIAG_CONTROLS_COUNT:", min(controls.count(), 250))
+            for k in range(min(controls.count(), 80)):
+                el = controls.nth(k)
+                try:
+                    if el.is_visible():
+                        print("DIAG_CONTROL:", k, "tag=", el.evaluate("(e) => e.tagName"), "text=", (el.inner_text(timeout=300) or "").strip()[:80], "aria=", el.get_attribute("aria-label"), "disabled=", el.get_attribute("disabled"), "aria-disabled=", el.get_attribute("aria-disabled"), "class=", (el.get_attribute("class") or "")[:120])
+                except Exception:
+                    pass
+        except Exception as exc:
+            print("DIAG_CONTROLS_ERROR:", type(exc).__name__)
+
         # A página pública pode mostrar mais de um mês. Só clicamos em botões
         # de dia habilitados; controles de navegação e dias desabilitados ficam de fora.
         for month_index in range(6):
