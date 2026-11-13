@@ -1,7 +1,8 @@
 import json
 import os
 import re
-import subprocess
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -9,13 +10,13 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 
 URL = "https://bookings.cloud.microsoft/book/SELAGEMDECELULARESESIMILARESPARAACESSOSREASRESTRITASCpia@gru.com.br/?ismsaljsauthenabled=true"
 STATE_FILE = Path("state.json")
-TIME_RE = re.compile(r"^(?:[01]?\d|2[0-3]):[0-5]\d$")
+WEEKDAYS = r"(?:Domingo|Segunda-feira|Terça-feira|Quarta-feira|Quinta-feira|Sexta-feira|Sábado)"
+DATE_LABEL_RE = re.compile(rf"^{WEEKDAYS}, .+")
+TIME_RE = re.compile(r"^(?:(?:[01]?\d|2[0-3]):[0-5]\d|(?:0?[1-9]|1[0-2]):[0-5]\d\s*[APap][Mm])$")
 
 def notify(message):
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
-    import urllib.request
-    import urllib.parse
     data = urllib.parse.urlencode({"chat_id": chat_id, "text": message}).encode()
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{token}/sendMessage",
@@ -26,6 +27,33 @@ def notify(message):
         result = json.loads(response.read().decode())
     if not result.get("ok"):
         raise RuntimeError("Telegram recusou o envio da mensagem")
+
+def visible_times(page):
+    times = set()
+    # O Bookings pode renderizar horários como botões, opções ou elementos acessíveis.
+    candidates = page.locator("button, [role='button'], [role='option'], [role='radio'], [aria-label]")
+    for i in range(min(candidates.count(), 500)):
+        el = candidates.nth(i)
+        try:
+            if not el.is_visible():
+                continue
+            text = (el.inner_text(timeout=250) or "").strip()
+            aria = (el.get_attribute("aria-label") or "").strip()
+            for value in (text, aria):
+                value = value.replace("\\n", " ").strip()
+                if TIME_RE.fullmatch(value):
+                    times.add(value)
+        except Exception:
+            continue
+    # Fallback: horários podem aparecer como linhas de texto sem botão acessível.
+    try:
+        for line in page.locator("body").inner_text(timeout=3000).splitlines():
+            value = line.strip()
+            if TIME_RE.fullmatch(value):
+                times.add(value)
+    except Exception:
+        pass
+    return sorted(times)
 
 def main():
     old = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {"seen": []}
@@ -42,115 +70,76 @@ def main():
             pass
         page.wait_for_timeout(5000)
 
-        # Diagnóstico temporário para validar a estrutura real do calendário.
-        print("DIAG_URL:", page.url)
-        print("DIAG_TITLE:", page.title())
-        try:
-            print("DIAG_BODY:", page.locator("body").inner_text(timeout=5000)[:5000])
-        except Exception as exc:
-            print("DIAG_BODY_ERROR:", type(exc).__name__)
-        try:
-            controls = page.locator("button, [role='button'], [role='gridcell']")
-            print("DIAG_CONTROLS_COUNT:", min(controls.count(), 250))
-            for k in range(min(controls.count(), 80)):
-                el = controls.nth(k)
-                try:
-                    if el.is_visible():
-                        print("DIAG_CONTROL:", k, "tag=", el.evaluate("(e) => e.tagName"), "text=", (el.inner_text(timeout=300) or "").strip()[:80], "aria=", el.get_attribute("aria-label"), "disabled=", el.get_attribute("disabled"), "aria-disabled=", el.get_attribute("aria-disabled"), "class=", (el.get_attribute("class") or "")[:120])
-                except Exception:
-                    pass
-        except Exception as exc:
-            print("DIAG_CONTROLS_ERROR:", type(exc).__name__)
+        # Verifica exatamente dois meses: o mês inicial e o seguinte.
+        for month_index in range(2):
+            heading = page.locator("body").inner_text(timeout=5000)
+            month_match = re.search(
+                r"(Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro)\s+\d{4}",
+                heading,
+                re.IGNORECASE,
+            )
+            month_name = month_match.group(0) if month_match else f"Mês {month_index + 1}"
+            print(f"VERIFICANDO_MES: {month_name}")
 
-        # A página pública pode mostrar mais de um mês. Só clicamos em botões
-        # de dia habilitados; controles de navegação e dias desabilitados ficam de fora.
-        for month_index in range(6):
-            candidates = page.locator("button:not([disabled]), [role='button']:not([aria-disabled='true'])")
-            count = min(candidates.count(), 300)
-            day_buttons = []
-            for i in range(count):
-                el = candidates.nth(i)
+            # Os dias são DIVs com aria-label e aria-disabled, não botões HTML.
+            date_cells = page.locator("[aria-label]")
+            dates = []
+            for i in range(min(date_cells.count(), 500)):
+                el = date_cells.nth(i)
                 try:
-                    if not el.is_visible():
-                        continue
-                    label = (el.get_attribute("aria-label") or el.get_attribute("title") or "").strip()
-                    text = (el.inner_text(timeout=500) or "").strip()
-                    if re.fullmatch(r"\d{1,2}", text) and 1 <= int(text) <= 31:
-                        day_buttons.append((i, label, text))
+                    label = (el.get_attribute("aria-label") or "").strip()
+                    disabled = (el.get_attribute("aria-disabled") or "").lower() == "true"
+                    if DATE_LABEL_RE.match(label) and not disabled and el.is_visible():
+                        dates.append(label)
                 except Exception:
                     continue
 
-            for original_index, label, day in day_buttons:
-                try:
-                    # Re-query because the DOM may have changed after each selection.
-                    current = page.locator("button:not([disabled]), [role='button']:not([aria-disabled='true'])")
-                    if original_index >= current.count():
-                        continue
-                    el = current.nth(original_index)
-                    if not el.is_visible():
-                        continue
-                    el.click(timeout=1500)
-                    page.wait_for_timeout(900)
-                    body = page.locator("body").inner_text(timeout=3000)
-                    # Collect explicit time-slot controls, not incidental text in the page.
-                    slot_labels = []
-                    slots = page.locator("button:not([disabled]), [role='button']:not([aria-disabled='true'])")
-                    for j in range(min(slots.count(), 250)):
-                        item = slots.nth(j)
-                        try:
-                            if not item.is_visible():
-                                continue
-                            value = (item.inner_text(timeout=300) or "").strip()
-                            if TIME_RE.fullmatch(value):
-                                slot_labels.append(value)
-                        except Exception:
-                            continue
-                    if slot_labels:
-                        date_label = label or f"Dia {day}"
-                        key = f"{date_label}|{','.join(sorted(set(slot_labels)))}"
-                        found[key] = {"date": date_label, "times": sorted(set(slot_labels))}
-                except Exception:
-                    continue
+            print(f"DIAS_SELECIONAVEIS_{month_index + 1}: {len(dates)}")
 
-            if month_index < 5:
-                # Try common accessible names for the next-month control.
-                next_button = None
-                for selector in [
-                    "button[aria-label*='Próximo']",
-                    "button[aria-label*='próximo']",
-                    "button[aria-label*='Next']",
-                    "button[title*='Próximo']",
-                    "button[title*='Next']",
-                ]:
-                    loc = page.locator(selector).first
-                    try:
-                        if loc.is_visible() and loc.is_enabled():
-                            next_button = loc
-                            break
-                    except Exception:
-                        pass
-                if next_button is None:
-                    break
+            for label in sorted(set(dates)):
                 try:
-                    next_button.click(timeout=1500)
-                    page.wait_for_timeout(700)
-                except Exception:
-                    break
+                    cell = page.locator("[aria-label]").filter(has_text="__never_match__")
+                    # Seleciona o elemento pelo aria-label exato encontrado no calendário.
+                    cell = page.locator(f'[aria-label="{label.replace(chr(34), chr(92) + chr(34))}"]').first
+                    if not cell.is_visible():
+                        continue
+                    cell.click(timeout=3000)
+                    page.wait_for_timeout(1200)
+                    times = visible_times(page)
+                    if times:
+                        for time_value in times:
+                            key = f"{label}|{time_value}"
+                            found[key] = {"date": label, "time": time_value}
+                        print(f"HORARIOS_{label}: {', '.join(times)}")
+                    else:
+                        print(f"SEM_HORARIOS_IDENTIFICADOS: {label}")
+                except Exception as exc:
+                    print(f"ERRO_DATA {label}: {type(exc).__name__}")
+
+            if month_index == 0:
+                next_month = page.locator('[aria-label="Próximo mês"]').first
+                if not next_month.is_visible():
+                    raise RuntimeError("Não foi possível localizar o controle 'Próximo mês'.")
+                next_month.click(timeout=3000)
+                page.wait_for_timeout(1200)
 
         browser.close()
 
     new_items = [item for key, item in found.items() if key not in seen]
     if new_items:
-        lines = ["🚨 NOVA DISPONIBILIDADE NO BOOKING", "Selagem de celulares e similares para acesso às áreas restritas", ""]
+        lines = [
+            "🚨 NOVA DISPONIBILIDADE NO BOOKING",
+            "Selagem de celulares e similares para acesso às áreas restritas",
+            "",
+        ]
         for item in new_items:
-            lines.append(f"{item['date']}: {', '.join(item['times'])}")
+            lines.append(f"{item['date']}: {item['time']}")
         lines.extend(["", "Abra o agendamento para reservar:", URL])
-        notify("\n".join(lines))
+        notify("\\n".join(lines))
 
     old["seen"] = sorted(seen.union(found.keys()))
     old["last_check_utc"] = datetime.now(timezone.utc).isoformat()
-    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n")
-
+    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\\n")
     print(f"Disponibilidades encontradas: {len(found)}; novas: {len(new_items)}")
 
 if __name__ == "__main__":
