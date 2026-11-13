@@ -56,6 +56,16 @@ def visible_times(page):
     return sorted(times)
 
 def main():
+    # Modo de teste isolado: valida token e chat_id sem acessar o Bookings.
+    if os.environ.get("TESTE_TELEGRAM") == "1":
+        notify(
+            "✅ TESTE DO MONITOR BOOKING\n"
+            "O envio pelo Telegram está funcionando.\n"
+            "Este foi apenas um teste; nenhuma reserva foi feita."
+        )
+        print("TESTE_TELEGRAM: mensagem enviada com sucesso.")
+        return
+
     old = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {"seen": []}
     seen = set(old.get("seen", []))
     found = {}
