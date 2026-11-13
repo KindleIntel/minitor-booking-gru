@@ -146,7 +146,9 @@ def main():
         lines.extend(["", "Abra o agendamento para reservar:", URL])
         notify("\n".join(lines))
 
-    old["seen"] = sorted(seen.union(found.keys()))
+    # Guarda somente o estado da última verificação concluída.
+    # Se um horário desaparecer e voltar a abrir depois, poderá gerar novo alerta.
+    old["seen"] = sorted(found.keys())
     old["last_check_utc"] = datetime.now(timezone.utc).isoformat()
     STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n")
     print(f"Disponibilidades encontradas: {len(found)}; novas: {len(new_items)}")
