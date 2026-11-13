@@ -40,7 +40,7 @@ def visible_times(page):
             text = (el.inner_text(timeout=250) or "").strip()
             aria = (el.get_attribute("aria-label") or "").strip()
             for value in (text, aria):
-                value = value.replace("\\n", " ").strip()
+                value = value.replace("\n", " ").strip()
                 if TIME_RE.fullmatch(value):
                     times.add(value)
         except Exception:
@@ -98,7 +98,6 @@ def main():
 
             for label in sorted(set(dates)):
                 try:
-                    cell = page.locator("[aria-label]").filter(has_text="__never_match__")
                     # Seleciona o elemento pelo aria-label exato encontrado no calendário.
                     cell = page.locator(f'[aria-label="{label.replace(chr(34), chr(92) + chr(34))}"]').first
                     if not cell.is_visible():
@@ -135,11 +134,11 @@ def main():
         for item in new_items:
             lines.append(f"{item['date']}: {item['time']}")
         lines.extend(["", "Abra o agendamento para reservar:", URL])
-        notify("\\n".join(lines))
+        notify("\n".join(lines))
 
     old["seen"] = sorted(seen.union(found.keys()))
     old["last_check_utc"] = datetime.now(timezone.utc).isoformat()
-    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\\n")
+    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n")
     print(f"Disponibilidades encontradas: {len(found)}; novas: {len(new_items)}")
 
 if __name__ == "__main__":
