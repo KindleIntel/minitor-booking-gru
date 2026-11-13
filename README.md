@@ -1,21 +1,28 @@
 # Monitor Bookings GRU
 
-Monitor de disponibilidade do agendamento público de selagem de celulares, com alertas via Telegram.
+Monitor da agenda pública de selagem de celulares e similares, com notificações pelo Telegram.
+
+## Workflows
+- **Monitorar Bookings GRU - Automático**: verifica a agenda a cada 10 minutos.
+- **Monitorar Bookings GRU**: permite executar a verificação manualmente.
+- **Testar Telegram**: envia uma mensagem isolada de teste.
 
 ## Configuração
-1. Em Settings > Secrets and variables > Actions, configure:
-   - TELEGRAM_BOT_TOKEN
-   - TELEGRAM_CHAT_ID
-2. No Telegram, abra o bot e envie /start.
-3. Em Actions, habilite workflows se o GitHub solicitar.
-4. Execute "Monitorar Bookings GRU" com Run workflow para testar.
+Em Settings > Secrets and variables > Actions, mantenha estes dois secrets:
+- TELEGRAM_BOT_TOKEN
+- TELEGRAM_CHAT_ID
+
+No Telegram, abra o bot e envie /start.
+
+## Funcionamento
+O monitor verifica o mês apresentado inicialmente e o mês seguinte, procura dias selecionáveis e, para cada dia, tenta identificar os horários disponíveis. O estado é salvo em state.json para que uma combinação de data e horário nova (ou que volte a aparecer depois de desaparecer) possa gerar um novo alerta.
+
+A automação apenas notifica; não realiza reservas.
 
 ## Frequência e limites
-O agendamento está configurado para tentar executar a cada 10 minutos. O GitHub Actions permite agendamento por cron a partir de 5 minutos, mas execuções agendadas podem atrasar ou ser enfileiradas.
-
-Em repositórios públicos, os executores padrão hospedados pelo GitHub são gratuitos. Em repositórios privados, o consumo é descontado da franquia mensal da conta e pode gerar cobrança ao excedê-la.
-
-O monitor consulta o mês inicial e o seguinte, verifica os dias selecionáveis e procura horários. O Telegram recebe notificações quando uma combinação de data e horário aparece pela primeira vez ou volta a ficar disponível. A automação não realiza reservas.
+O workflow automático tenta executar a cada 10 minutos, em horários deslocados dos minutos redondos. O GitHub pode atrasar ou, em situações de alta carga, descartar execuções agendadas. O workflow também executa uma vez na publicação/alteração do seu próprio arquivo, para validar que o gatilho de publicação está ativo.
 
 ## Segurança
 O token do bot e o identificador do chat devem permanecer exclusivamente em GitHub Actions Secrets; nunca os coloque nos arquivos do repositório.
+
+Como o repositório é público, todos os arquivos, código e logs de execução podem ser vistos por qualquer pessoa. Os valores dos secrets não são exibidos nos logs quando usados corretamente.
