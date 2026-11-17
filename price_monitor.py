@@ -74,13 +74,14 @@ def parse_brl(value):
 
 def is_target_title(title):
     normalized = re.sub(r"\s+", " ", title).lower()
-    if "5070 ti" not in normalized and "5070ti" not in normalized:
-        return False
-    if not any(term in normalized for term in ("rtx", "geforce", "nvidia")):
+    if not re.search(r"rtx\s*5070\s*ti|geforce\s*rtx\s*5070\s*ti", normalized):
         return False
     if any(term in normalized for term in ("pc gamer", "notebook", "workstation", "computador")):
         return False
-    return True
+    # Exige fabricante/modelo específico da placa; "RTX 5070 Ti" isolado não basta.
+    board_brands = ("asus", "gigabyte", "msi", "zotac", "pny", "palit", "gainward",
+                    "galax", "inno3d", "colorful", "acer", "manli", "kfa2", "asrock")
+    return any(brand in normalized for brand in board_brands)
 
 
 def excluded(text):
@@ -102,48 +103,45 @@ def store_in_text(text):
 
 
 def extract_price(text):
-    """Escolhe o preço de venda, dando preferência ao valor atual à vista/Pix."""
+    """Extrai preço total; rejeita valores de parcelas e preços implausíveis."""
     matches = list(re.finditer(r"R\$\s*([0-9][0-9.,]*)", text, re.IGNORECASE))
     if not matches:
         return None, "não identificado"
 
-    def parsed(match):
-        return parse_brl(match.group(1))
+    def valid_total(match):
+        prefix = text[max(0, match.start() - 45):match.start()].lower()
+        # Não aceitar "10x de R$ 824,92", "12x R$..." ou valor mensal.
+        if re.search(r"\b\d{1,2}\s*x\s*(?:de\s*)?$", prefix):
+            return None
+        if re.search(r"\bpor\s+m[eê]s\s*$", prefix):
+            return None
+        value = parse_brl(match.group(1))
+        # Piso de sanidade para impedir parcelas/erros de extração.
+        if value is None or value < 2500 or value > 20000:
+            return None
+        return value
 
-    # Nas lojas, o preço promocional normalmente vem depois de "por:".
+    candidates = [(m, valid_total(m)) for m in matches]
+    candidates = [(m, value) for m, value in candidates if value is not None]
+    if not candidates:
+        return None, "não identificado"
+
+    # Preferir preço explicitamente ligado a Pix/boleto/à vista.
+    for marker in re.finditer(r"\b(?:no\s+pix|pix|boleto|à\s+vista)\b", text, re.IGNORECASE):
+        preceding = [(m, value) for m, value in candidates if m.end() <= marker.start()]
+        following = [(m, value) for m, value in candidates if m.start() >= marker.end()]
+        chosen = preceding[-1] if preceding else (following[0] if following else None)
+        if chosen:
+            return chosen[1], "Pix/boleto" if "pix" in marker.group(0).lower() or "boleto" in marker.group(0).lower() else "à vista"
+
+    # Preferir preço após "por:", mas apenas se passar pelos filtros de parcela.
     por = re.search(r"\bpor\s*:\s*", text, re.IGNORECASE)
     if por:
-        after = [m for m in matches if m.start() >= por.end()]
+        after = [(m, value) for m, value in candidates if m.start() >= por.end()]
         if after:
-            chosen = after[0]
-            price = parsed(chosen)
-            if price is not None:
-                window = text[chosen.start():min(len(text), chosen.end() + 90)].lower()
-                method = "Pix/boleto" if ("pix" in window or "boleto" in window) else "preço anunciado"
-                return price, method
+            return after[0][1], "preço anunciado"
 
-    # Se a página destaca Pix ou boleto, usa o valor mais próximo desse marcador.
-    markers = list(re.finditer(r"\b(?:no\s+pix|pix|boleto)\b", text, re.IGNORECASE))
-    if markers:
-        marker = markers[0]
-        # Em catálogos brasileiros, o preço Pix costuma vir imediatamente antes
-        # de "no Pix"; os valores seguintes geralmente são parcelas do cartão.
-        before_marker = [m for m in matches if m.end() <= marker.start()]
-        chosen = before_marker[-1] if before_marker else matches[0]
-        price = parsed(chosen)
-        if price is not None:
-            return price, "Pix/boleto"
-
-    # Formato "à vista R$ 9.599,99" ou "R$ 7.999,00 à vista".
-    vista = re.search(r"à\s+vista", text, re.IGNORECASE)
-    if vista:
-        nearest = min(matches, key=lambda m: abs(m.start() - vista.start()))
-        price = parsed(nearest)
-        if price is not None:
-            return price, "à vista"
-
-    price = parsed(matches[0])
-    return (price, "preço anunciado") if price is not None else (None, "não identificado")
+    return candidates[0][1], "preço anunciado"
 
 
 def extract_target_title(text):
@@ -186,7 +184,14 @@ def offer_from_card(store, block, href, source):
     if not title or not is_target_title(title):
         return None
     price, payment = extract_price(block)
-    if price is None or price <= 0:
+    if price is None or price < 2500 or price >= 20000:
+        return None
+    # Nunca alertar URL genérica de busca, campanha ou categoria como se fosse produto.
+    from urllib.parse import urlparse
+    path = urlparse(href).path.lower()
+    if any(term in path for term in ("/busca", "/promocao", "/categoria", "/hardware/placa-de-video")):
+        return None
+    if len(title.split()) < 4:
         return None
     return {
         "store": store,
