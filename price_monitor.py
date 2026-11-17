@@ -108,7 +108,7 @@ def extract_pcfinder(page):
                 prices.append(price)
         if not prices:
             continue
-        price = min(prices)
+        price = prices[0]
 
         # O comparador agrega ofertas de varejistas; remove linhas sem preço real ou indisponíveis.
         if re.search(r"indispon[ií]vel|esgotado|sem estoque", block, re.IGNORECASE):
