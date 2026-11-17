@@ -102,7 +102,7 @@ def extract_pcfinder(page):
             continue
 
         prices = []
-        for match in re.finditer(r"R\$\s*([0-9.]+,[0-9]{2})", block, re.IGNORECASE):
+        for match in re.finditer(r"(?<!de )R\$\s*([0-9.]+,[0-9]{2})", block, re.IGNORECASE):
             price = parse_brl(match.group(1))
             if price is not None:
                 prices.append(price)
@@ -139,7 +139,7 @@ def extract_tnt(page):
             return offers
 
         prices = []
-        for match in re.finditer(r"R\$\s*([0-9.]+,[0-9]{2})", body, re.IGNORECASE):
+        for match in re.finditer(r"(?<!de )R\$\s*([0-9.]+,[0-9]{2})", body, re.IGNORECASE):
             price = parse_brl(match.group(1))
             if price is not None:
                 prices.append(price)
