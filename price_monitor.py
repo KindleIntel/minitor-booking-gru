@@ -43,7 +43,7 @@ def notify(message):
 
 
 def parse_brl(value):
-    value = value.replace("R$", "").replace("\\xa0", " ").strip()
+    value = value.replace("R$", "").replace("\xa0", " ").strip()
     value = re.sub(r"[^0-9,.]", "", value)
     if not value:
         return None
@@ -56,7 +56,7 @@ def parse_brl(value):
 
 
 def is_target_title(title):
-    normalized = re.sub(r"\\s+", " ", title).lower()
+    normalized = re.sub(r"\s+", " ", title).lower()
     return "5070 ti" in normalized and ("rtx" in normalized or "geforce" in normalized)
 
 
@@ -82,7 +82,7 @@ def extract_pcfinder(page):
         let best = "";
         for (let i = 0; i < 9 && el; i++, el = el.parentElement) {
           const t = (el.innerText || "").trim();
-          if (/5070\\s*ti/i.test(t) && /R\\s*\\$/i.test(t) && t.length < 1800) {
+          if (/5070\s*ti/i.test(t) && /R\s*\$/i.test(t) && t.length < 1800) {
             best = t;
             break;
           }
@@ -95,14 +95,14 @@ def extract_pcfinder(page):
         href = item.get("href") or ""
         if not block or not href or excluded(block):
             continue
-        lines = [re.sub(r"\\s+", " ", line).strip() for line in block.splitlines() if line.strip()]
+        lines = [re.sub(r"\s+", " ", line).strip() for line in block.splitlines() if line.strip()]
         title = next((line for line in lines if is_target_title(line)), "")
         store = store_in_text(block)
         if not title or not store:
             continue
 
         prices = []
-        for match in re.finditer(r"R\\$\\s*([0-9.]+,[0-9]{2})", block, re.IGNORECASE):
+        for match in re.finditer(r"R\$\s*([0-9.]+,[0-9]{2})", block, re.IGNORECASE):
             price = parse_brl(match.group(1))
             if price is not None:
                 prices.append(price)
@@ -139,7 +139,7 @@ def extract_tnt(page):
             return offers
 
         prices = []
-        for match in re.finditer(r"R\\$\\s*([0-9.]+,[0-9]{2})", body, re.IGNORECASE):
+        for match in re.finditer(r"R\$\s*([0-9.]+,[0-9]{2})", body, re.IGNORECASE):
             price = parse_brl(match.group(1))
             if price is not None:
                 prices.append(price)
@@ -209,7 +209,7 @@ def main():
                 "",
             ])
         lines.append("Confira estoque, vendedor, frete e condição final no site antes de comprar.")
-        notify("\\n".join(lines))
+        notify("\n".join(lines))
         print(f"ALERTAS_ENVIADOS: {len(alerts)}")
     else:
         print("SEM_NOVAS_OFERTAS_ABAIXO_DO_LIMITE")
@@ -219,7 +219,7 @@ def main():
         for key, offer in current.items()
     }
     old["last_check_utc"] = datetime.now(timezone.utc).isoformat()
-    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"OFERTAS_MONITORADAS: {len(current)}")
 
 
