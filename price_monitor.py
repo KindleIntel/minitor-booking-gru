@@ -250,22 +250,6 @@ def extract_direct_source(page, store, url):
             offer = offer_from_card(store, item.get("text") or "", href, store)
             if offer:
                 offers.append(offer)
-        # Algumas páginas têm um produto em destaque sem link envolvendo o card inteiro.
-        body = page.locator("body").inner_text(timeout=7000)
-        if is_target_title(extract_target_title(body)) and not excluded(body) and not unavailable(body):
-            # Não cria oferta sem URL específica; evita mandar o usuário para uma busca genérica.
-            title = extract_target_title(body)
-            price, payment = extract_price(body)
-            product_links = [
-                item.get("href") for item in cards
-                if item.get("href") and is_target_title(extract_target_title(item.get("text") or ""))
-            ]
-            if price is not None and product_links:
-                offer = {
-                    "store": store, "title": title, "price": round(price, 2),
-                    "payment": payment, "url": product_links[0], "source": store,
-                }
-                offers.append(offer)
         print(f"OFERTAS_{store.upper().replace(' ', '_')}: {len(offers)}")
     except Exception as exc:
         print(f"ERRO_{store.upper().replace(' ', '_')}: {type(exc).__name__}: {exc}")
@@ -301,6 +285,12 @@ def same_shop_host(source_url, product_url, store):
 def main():
     old = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {"offers": {}}
     old_offers = old.get("offers", {})
+    # Descarta entradas antigas claramente inválidas, como valores de parcelas.
+    old_offers = {
+        key: value for key, value in old_offers.items()
+        if 2500 <= float(value.get("price", 0) or 0) < 20000
+        and is_target_title(value.get("title", ""))
+    }
     current = {}
 
     with sync_playwright() as p:
