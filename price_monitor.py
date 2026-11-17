@@ -126,8 +126,11 @@ def extract_price(text):
     markers = list(re.finditer(r"\b(?:no\s+pix|pix|boleto)\b", text, re.IGNORECASE))
     if markers:
         marker = markers[0]
-        nearest = min(matches, key=lambda m: abs(m.start() - marker.start()))
-        price = parsed(nearest)
+        # Em catálogos brasileiros, o preço Pix costuma vir imediatamente antes
+        # de "no Pix"; os valores seguintes geralmente são parcelas do cartão.
+        before_marker = [m for m in matches if m.end() <= marker.start()]
+        chosen = before_marker[-1] if before_marker else matches[0]
+        price = parsed(chosen)
         if price is not None:
             return price, "Pix/boleto"
 
