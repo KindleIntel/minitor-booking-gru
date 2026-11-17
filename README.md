@@ -46,6 +46,18 @@ O mesmo disparo do cron-job.org executa também `price_monitor.py`, a cada 10 mi
 - Alertas: envia no Telegram quando uma oferta abaixo do limite aparece pela primeira vez ou quando o preço cai. Não repete o mesmo alerta a cada execução.
 - O histórico de preços/alertas fica em `price_state.json`.
 
+
+### Fontes da pesquisa RTX 5070 Ti
+
+Além do comparador PCFinder, o monitor abre páginas próprias de:
+- KaBuM! — busca por RTX 5070 Ti;
+- TNT Info — categoria de placas de vídeo;
+- Patoloco — página inicial/ofertas;
+- Pichau — categoria NVIDIA;
+- TerabyteShop — busca por RTX 5070 Ti.
+
+O script tenta extrair o preço anunciado em cada cartão de produto e prioriza o valor promocional indicado após "por:", ou o valor mais próximo de Pix/boleto/à vista. Cartões sem URL de produto, sem preço legível ou marcados como indisponíveis são descartados. Preços e estoque podem mudar entre as consultas.
+
 A disponibilidade, o preço final, o vendedor, a condição do produto e o frete devem ser confirmados na página da loja antes da compra. Comparadores podem apresentar preço desatualizado ou link intermediário. A verificação atual filtra termos de produto usado/recondicionado, mas não consegue garantir automaticamente todos os detalhes de cada vendedor/marketplace.
 
 ## Segurança
