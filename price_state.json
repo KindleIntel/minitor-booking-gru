@@ -1140,7 +1140,7 @@
       "title": "Placa de Vídeo Gigabyte NVIDIA GeForce RTX 5070 Ti WindForce OC SFF, 16GB GDDR7 - 256Bits GV-N507TWF3OC-16GD",
       "url": "https://www.tntinfo.com.br/produto/placa-de-video-gigabyte-nvidia-geforce-rtx-5070-ti-windforce-oc-sff-16gb-gddr7-256bits-gv-n507twf3oc-16gd-16722194915",
       "payment": "Pix/boleto",
-      "last_seen": "2026-11-22T13:11:33.913859+00:00"
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
     },
     "TNT Info|Placa de Vídeo Palit NVIDIA GeForce RTX 5070 Ti Gamingpro GDR7, 16GB, 256 bits|https://www.tntinfo.com.br/produto/placa-de-video-palit-nvidia-geforce-rtx-5070-ti-gamingpro-gdr7-16gb-256-bits-150822": {
       "price": 9176.09,
@@ -1148,7 +1148,7 @@
       "title": "Placa de Vídeo Palit NVIDIA GeForce RTX 5070 Ti Gamingpro GDR7, 16GB, 256 bits",
       "url": "https://www.tntinfo.com.br/produto/placa-de-video-palit-nvidia-geforce-rtx-5070-ti-gamingpro-gdr7-16gb-256-bits-150822",
       "payment": "Pix/boleto",
-      "last_seen": "2026-11-22T13:11:33.913859+00:00"
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
     },
     "Guerra Digital|Gigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/A_JRTgJj_h2MQcCY05H7VftQMJHFX_sr8uFksg01R7fukIxvDdJMM7IG5v2560WJ9qbJG7uykaTpF83Dtfaghaz7l1qCer48xbNP8q-FHiKOKhlj8ElQTBHusToceuzhjb9e16gx753zYAb56qbBl4auQDUg7b4Oz5B7Q2pO7euxyuiqHmWTsVsPpZOkOXfbqoWvxqwQjHiIYUzPv8POnXwedR8H04rupZlEKXZ4JPYTfjlCeaYOqROPQKBV5bi9HTAtgXAtN0XebmR0pJ-WmbcF2ZoRDij8Tisau62gklVsN4Y6fYbDSEawKNWuLzit6QKonj5h3o3LVhkYvB20744D0k59AgheESHcjlmKY88GDH0Vf7viSehp3I_RT_ZfxwxgeJd5c4VuCMqFZJxqIiUz": {
       "price": 8513.14,
@@ -375173,7 +375173,583 @@
       "url": "https://api.pcfinder.com.br/api/v1/r/A6uz81z6zBjnk-SaoUMvTcjY5damT4EVZcicxVegXRP9EruorKBAViq0rbUqnNr-hVb7VSIT3TqAijs1YLSDaTEJU_8xAf89oKa-dEMBohSr72RHWey99NRCSHVzzYVE_egSDePFo74mC2UlRsWAu_SV43tUwtmAWB0MeX_34xcMpaH6ey-_aZreKzCp4Swsh2o2yfkniYdx_D7PQQaT-LNajfso19XMiHgqd6V5lN77anaP-6NXmgLEw2pyvDlN2Yj74LBvwc_tyYGQYrNj8KvyEi1FlefiAyahnUNQK3Gm",
       "payment": "preço anunciado",
       "last_seen": "2026-11-22T13:11:33.913859+00:00"
+    },
+    "Guerra Digital|Gigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/AwWlJUsyeC-8_f9-F_iy1dmlE4bOHhzmmnCxBrX56xwf8PLZKGjObD6s2EJEoHh9lA9VctiP0r5V-eKUn5d09Fz0shp8qdNxoTk7s94XxtqDEnuYx0oWmdarNYY_bKTWq7zALKFtl7aBlePFcg-Jdz76AQECmTcrjU-iAGvq4eqFXBdUosPAE8gGTn5Lswuxm5wpzZrtSboXfK6kUsRK4wdE9cwO743KR9vzhhdMeOndnHRGbrrguOwQd-T4QLm-24O7UukL7d6WBJTsvuT-irztnXRyfHVYc_Gae2637iSwRRLDkFgtS4XP2v12DGZcQV-HJS2aGlbqelaWs5EEEvHUHQwSUHWXcHajNLeyGAYRYARwZJ96pWu_wmQRhTtVc1UXY6Pa6B4dgO8x2_HVkIe_": {
+      "price": 8513.14,
+      "store": "Guerra Digital",
+      "title": "Gigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bit",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AwWlJUsyeC-8_f9-F_iy1dmlE4bOHhzmmnCxBrX56xwf8PLZKGjObD6s2EJEoHh9lA9VctiP0r5V-eKUn5d09Fz0shp8qdNxoTk7s94XxtqDEnuYx0oWmdarNYY_bKTWq7zALKFtl7aBlePFcg-Jdz76AQECmTcrjU-iAGvq4eqFXBdUosPAE8gGTn5Lswuxm5wpzZrtSboXfK6kUsRK4wdE9cwO743KR9vzhhdMeOndnHRGbrrguOwQd-T4QLm-24O7UukL7d6WBJTsvuT-irztnXRyfHVYc_Gae2637iSwRRLDkFgtS4XP2v12DGZcQV-HJS2aGlbqelaWs5EEEvHUHQwSUHWXcHajNLeyGAYRYARwZJ96pWu_wmQRhTtVc1UXY6Pa6B4dgO8x2_HVkIe_",
+      "payment": "à vista",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7|https://api.pcfinder.com.br/api/v1/r/A95shL5oatKHSCvdHW7Iz9LiZ4SwJ1nJxFOGg7lJWlNCJcgYn0VBzYnqlcagCrpMWjbfj5_iF61uMpNlLmBsOxejFSsCVH6YsJ2SoqWRXjvbBXfFv9nGX89WeEAl32l8DThsTak-c9GGuRdPrbS1Tmas9sPxlf2vQ0888XViZ9w27P97bMCioCdDPC22O28Q9IuN0mwtPvmgQPrPF-r3KtxcfVGgh_Nol0Pc0TYb7Un5qxFQBAxFYPxXwpi7u1l8ddtzfWGoChE8fi5-veYJkyUy3bImu3S0SX-J": {
+      "price": 8949.0,
+      "store": "KaBuM",
+      "title": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A95shL5oatKHSCvdHW7Iz9LiZ4SwJ1nJxFOGg7lJWlNCJcgYn0VBzYnqlcagCrpMWjbfj5_iF61uMpNlLmBsOxejFSsCVH6YsJ2SoqWRXjvbBXfFv9nGX89WeEAl32l8DThsTak-c9GGuRdPrbS1Tmas9sPxlf2vQ0888XViZ9w27P97bMCioCdDPC22O28Q9IuN0mwtPvmgQPrPF-r3KtxcfVGgh_Nol0Pc0TYb7Un5qxFQBAxFYPxXwpi7u1l8ddtzfWGoChE8fi5-veYJkyUy3bImu3S0SX-J",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|MSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7|https://api.pcfinder.com.br/api/v1/r/Azz40pR7PSofkaRKcC7nfW-oDBocMVhUoY8i8m3x0ru-sd30mOdYW3eVgpfAkwNXddBkQrWvyBn1hTG5qzzCf9h0o1y31jcc0skrs-7_uXpMgXLthRZupuEy2jw2Cjp_jfj2_SBsTwNEG-SrY6xdrt8N4a9IHnh4_bRvsmNFCg": {
+      "price": 9299.0,
+      "store": "Amazon",
+      "title": "MSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Azz40pR7PSofkaRKcC7nfW-oDBocMVhUoY8i8m3x0ru-sd30mOdYW3eVgpfAkwNXddBkQrWvyBn1hTG5qzzCf9h0o1y31jcc0skrs-7_uXpMgXLthRZupuEy2jw2Cjp_jfj2_SBsTwNEG-SrY6xdrt8N4a9IHnh4_bRvsmNFCg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Microgem|ZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/Axtp1oSGG5ovIxMIVs7SwkFu0VLpGVX93bY_fmoJEQjo2Mu1FHU7pvUlPesOaWdoN0nK0BEKJ6rBjycV8PBUn4UjxCPHwIDjGWsuLclpgab5vjvPpl8H52CeHDzJisq-8p6jhcTvq8m6ZzsXOk21MwwO26Y2kY3tC3_L-IKwEXe-zQcTeNPxeq9ZlT7a_52ATiXJsoEMysMpOFAnJL1x05_hbErc4Uv-UGv98kBeY-prSqYt2gJErEy0XfLzZB7dJcJbRvecPVvt28BKkPHP4hDxGQ6h7HrscbjaPE0QQT0T9pAP-TpeNP1azpSPmpclq8h-adpzSUE": {
+      "price": 9299.84,
+      "store": "Microgem",
+      "title": "ZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bit",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Axtp1oSGG5ovIxMIVs7SwkFu0VLpGVX93bY_fmoJEQjo2Mu1FHU7pvUlPesOaWdoN0nK0BEKJ6rBjycV8PBUn4UjxCPHwIDjGWsuLclpgab5vjvPpl8H52CeHDzJisq-8p6jhcTvq8m6ZzsXOk21MwwO26Y2kY3tC3_L-IKwEXe-zQcTeNPxeq9ZlT7a_52ATiXJsoEMysMpOFAnJL1x05_hbErc4Uv-UGv98kBeY-prSqYt2gJErEy0XfLzZB7dJcJbRvecPVvt28BKkPHP4hDxGQ6h7HrscbjaPE0QQT0T9pAP-TpeNP1azpSPmpclq8h-adpzSUE",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|Palit GeForce RTX 5070 Ti Gaming Pro-S OC 16GB GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/A9zvako-TFX5dogLa7emKgst-9mxz9ZjZZ9vv4VDgr32djQIUVTFTxQ0nM_WlLccjCvOApW_muSq0QsR-toncsixLXVVyHk9zkKSLmRZvhXj4oytMZDKAeFj82gEcqtP5P9QoY0Gyd2HGZjYUyBbBkey78oHckd6X863Y8wCgQVoTHQmiuXPNT770Bne38kmZ2CdgBmeqmFgkF0GcgfFao25hgECEcMjcmGe4_hXuWYGF_Fh11twBs0AFo05ws_VeN9hjf0pLmZP8gQeE0mcGRAz_LZ0ZfqIUXqm8z_0IBo": {
+      "price": 9299.99,
+      "store": "Pichau",
+      "title": "Palit GeForce RTX 5070 Ti Gaming Pro-S OC 16GB GDDR7 256-bit",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9zvako-TFX5dogLa7emKgst-9mxz9ZjZZ9vv4VDgr32djQIUVTFTxQ0nM_WlLccjCvOApW_muSq0QsR-toncsixLXVVyHk9zkKSLmRZvhXj4oytMZDKAeFj82gEcqtP5P9QoY0Gyd2HGZjYUyBbBkey78oHckd6X863Y8wCgQVoTHQmiuXPNT770Bne38kmZ2CdgBmeqmFgkF0GcgfFao25hgECEcMjcmGe4_hXuWYGF_Fh11twBs0AFo05ws_VeN9hjf0pLmZP8gQeE0mcGRAz_LZ0ZfqIUXqm8z_0IBo",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Setup Ninja|ASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7|https://api.pcfinder.com.br/api/v1/r/Ay_vMl5QyHvlNMS_ghEvFz4Vm4sPsvoZychoWd5aX8Sl1Qb9Ndj2USjOYqQd3T1ygKCvxiqPdSYk-fMmfQMOghHT4RYfWyydmFan9npMUjYyGop-ps0zv6giaewXBCBjTb68X-GTWVgR-O8Ks3DUrAQF5rGz8W5jfgbXv3GQbOQnqI3hXGCY5ryaF8SKTAIvVgU81enjyaj6jOoyDwct8i3fMDRdDTiw6mhKXaaDiT4AiLt8jv2Tl4l6a5gi_CFu24S4KU44izLzDgoTQyE": {
+      "price": 9299.99,
+      "store": "Setup Ninja",
+      "title": "ASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Ay_vMl5QyHvlNMS_ghEvFz4Vm4sPsvoZychoWd5aX8Sl1Qb9Ndj2USjOYqQd3T1ygKCvxiqPdSYk-fMmfQMOghHT4RYfWyydmFan9npMUjYyGop-ps0zv6giaewXBCBjTb68X-GTWVgR-O8Ks3DUrAQF5rGz8W5jfgbXv3GQbOQnqI3hXGCY5ryaF8SKTAIvVgU81enjyaj6jOoyDwct8i3fMDRdDTiw6mhKXaaDiT4AiLt8jv2Tl4l6a5gi_CFu24S4KU44izLzDgoTQyE",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|Gainward GeForce RTX 5070 Ti Phoenix-S 16GB GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/AzU8Bj0VEkQ2w6S4ZUbJ8W2v-LqWnzSQEwtkNm_4CKhlUaHteMmzopmUAbuaBSKfU33GHthSYuPsJsWdGe0S5nSk9UPZiTAYaci8gWVR8LetioZoQL-OMrV7T4205Zgzq8-GniTDo-gSEYLWnwmxu5n3Qmt5RGqBGYKpj23osuTEkLOwUQMK8BqtJ3SUs-AvIFJqr0Ywg6k0YwPvSmPmaf3FEZ76mq0bv-P0emQb_zrJuwoNLyAqkohsFPpaM56kBLBVAtoS-cI_vhAz-8CP6qNi20yAHlWbZz6J55y2": {
+      "price": 9399.99,
+      "store": "Pichau",
+      "title": "Gainward GeForce RTX 5070 Ti Phoenix-S 16GB GDDR7 256-bit",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AzU8Bj0VEkQ2w6S4ZUbJ8W2v-LqWnzSQEwtkNm_4CKhlUaHteMmzopmUAbuaBSKfU33GHthSYuPsJsWdGe0S5nSk9UPZiTAYaci8gWVR8LetioZoQL-OMrV7T4205Zgzq8-GniTDo-gSEYLWnwmxu5n3Qmt5RGqBGYKpj23osuTEkLOwUQMK8BqtJ3SUs-AvIFJqr0Ywg6k0YwPvSmPmaf3FEZ76mq0bv-P0emQb_zrJuwoNLyAqkohsFPpaM56kBLBVAtoS-cI_vhAz-8CP6qNi20yAHlWbZz6J55y2",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|ZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bit|https://api.pcfinder.com.br/api/v1/r/A5y-FirK9xsf5Rb1RYjpi70NZkH1cm5Bd_0F2yxrPj_qLWUTuPoXJwwrZ6DYhQiBK9xB6i7wx4BK0dS8lL16K7Fd_lIvOIITtqncfOvZYR4Mxd1UpN8G_bWGWl62Kjea3bnZ9VXiq4V45mOuKM5wFQ_vraAGGFoypUn1LK3ET0-tM4ezvwkejFR20tU63UQe7IRFp2J4JEc3bgh3rT3R1KrmPtJromnd4hs0frNxloxyGMDqTtuu3vEG4xNBG-d8N0lOAfTOYwVgQvU2HGlrg_WcV0PR9dX2LwMoHi9TmKl50qM49sZbwWcPE_eMXEpLNz4_mrvXHw": {
+      "price": 9499.99,
+      "store": "Pichau",
+      "title": "ZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bit",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A5y-FirK9xsf5Rb1RYjpi70NZkH1cm5Bd_0F2yxrPj_qLWUTuPoXJwwrZ6DYhQiBK9xB6i7wx4BK0dS8lL16K7Fd_lIvOIITtqncfOvZYR4Mxd1UpN8G_bWGWl62Kjea3bnZ9VXiq4V45mOuKM5wFQ_vraAGGFoypUn1LK3ET0-tM4ezvwkejFR20tU63UQe7IRFp2J4JEc3bgh3rT3R1KrmPtJromnd4hs0frNxloxyGMDqTtuu3vEG4xNBG-d8N0lOAfTOYwVgQvU2HGlrg_WcV0PR9dX2LwMoHi9TmKl50qM49sZbwWcPE_eMXEpLNz4_mrvXHw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bitR$ 9.599,9912x|https://api.pcfinder.com.br/api/v1/r/Ax5b7QbzMYQpOaBI5Yq2Vb8XEhQLUz8b-1_4tMbQ5U8gW-2s5uWRTWGBTLPnVDAD8tXUiedx05oOntoNuJcK9WRIeNcvCwlifVyZdhV6BcHQF0pKZAOYrMl6h9__-5XcaRvgmtCG0Zr5puuoPqFG1PZGrNi57D6Dmo2c-54hc_KSBiOZeAXlNMGTQ3e6tVAr3zjHrbUSpqA0XPxS20J-JBJPlLoM2gUWPG56-b8IChCb0gusvoY9-yZUUZ0eROXNTuEGItSGkjoJecqHQ2Co9F3zzkH-AIDtDvnOQH4eoujE7FGvePBfUXY": {
+      "price": 9599.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bitR$ 9.599,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Ax5b7QbzMYQpOaBI5Yq2Vb8XEhQLUz8b-1_4tMbQ5U8gW-2s5uWRTWGBTLPnVDAD8tXUiedx05oOntoNuJcK9WRIeNcvCwlifVyZdhV6BcHQF0pKZAOYrMl6h9__-5XcaRvgmtCG0Zr5puuoPqFG1PZGrNi57D6Dmo2c-54hc_KSBiOZeAXlNMGTQ3e6tVAr3zjHrbUSpqA0XPxS20J-JBJPlLoM2gUWPG56-b8IChCb0gusvoY9-yZUUZ0eROXNTuEGItSGkjoJecqHQ2Co9F3zzkH-AIDtDvnOQH4eoujE7FGvePBfUXY",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Terabyte|TerabyteMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 9.599,9912x|https://api.pcfinder.com.br/api/v1/r/A-lr9gEOT2o_PDUQ_akBz6z8pN1bI0HCwZdcn5IcjhaLTqaPua1ydWNK88eORE5LmQCdBx13d1qLnF5uMTGCcT6-8n88U9EPNPpXy2IP_EUsjoJrcbmyhMoIEcUQEB75F6RB1Rr1kHg8TOqSWYI4nS5KojxJaAz3v_nNq43_WzAEoPeWjqR6a5bbzMIVUxrqTAoQ-KqAK5jflqaySVfwe4rKC64SuACs4hbL6-cJZaG7HPc6e7ZInOAIRUQAqYYbOSYYu3wSdDn4I_PwrkBPZe78xAWfRpRTP_Bh6oTVXT4Od9NVXbZqunJvS7jL9rWsAWQ": {
+      "price": 9599.99,
+      "store": "Terabyte",
+      "title": "TerabyteMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 9.599,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A-lr9gEOT2o_PDUQ_akBz6z8pN1bI0HCwZdcn5IcjhaLTqaPua1ydWNK88eORE5LmQCdBx13d1qLnF5uMTGCcT6-8n88U9EPNPpXy2IP_EUsjoJrcbmyhMoIEcUQEB75F6RB1Rr1kHg8TOqSWYI4nS5KojxJaAz3v_nNq43_WzAEoPeWjqR6a5bbzMIVUxrqTAoQ-KqAK5jflqaySVfwe4rKC64SuACs4hbL6-cJZaG7HPc6e7ZInOAIRUQAqYYbOSYYu3wSdDn4I_PwrkBPZe78xAWfRpRTP_Bh6oTVXT4Od9NVXbZqunJvS7jL9rWsAWQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Setup Ninja|Setup NinjaMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 9.799,9912x|https://api.pcfinder.com.br/api/v1/r/A2RLSdjaanakbDGA-2NqF3Ng_XTm3WmFg58cGBkDbHfuU8SkOPyx0WgppFB7lruA9QkwvPnYQNZtPP3ns6z6uk3A_BxGjgkwTYLUelh1yxo8rD5FUKWSQrhRW_20FCVygbvS8dtNussrEPIGtyWKLC5YVJ2fFEJJ3EYS7bk-9BJptNi9C77JaTOVC9cMX3snZTcl9mtKjf2xy7BuOloXg1cvTjNk8g51gFnjdmBWiNf1sXlpv9zRIZrOzqpuVN9WAxH877XAynOzplQ0FUcuXUmJPzdgZcb-": {
+      "price": 9799.99,
+      "store": "Setup Ninja",
+      "title": "Setup NinjaMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 9.799,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A2RLSdjaanakbDGA-2NqF3Ng_XTm3WmFg58cGBkDbHfuU8SkOPyx0WgppFB7lruA9QkwvPnYQNZtPP3ns6z6uk3A_BxGjgkwTYLUelh1yxo8rD5FUKWSQrhRW_20FCVygbvS8dtNussrEPIGtyWKLC5YVJ2fFEJJ3EYS7bk-9BJptNi9C77JaTOVC9cMX3snZTcl9mtKjf2xy7BuOloXg1cvTjNk8g51gFnjdmBWiNf1sXlpv9zRIZrOzqpuVN9WAxH877XAynOzplQ0FUcuXUmJPzdgZcb-",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Aeroluz|AeroluzGainward GeForce RTX 5070 Ti Phoenix-S 16GB GDDR7 256-bitR$ 9.890,0012x|https://api.pcfinder.com.br/api/v1/r/A_NpqoHnBwiEdr6rVjKge9PrIGwoKTU56ZXu6fy27tu38fDan6UQ9MR1hT0w3nNZCw0VfxYO4FfXG6t3mliWhxB6yjs-CMY54pf2yaU4SPvtp7tCwqnsaRlngLuKqwqvO-1ijA-fFawckNPpNbX1JoHIKD9i72HJLykOhlus8l-i139-3HpOeQlI_LP9Sq0wODqcXl9fQACLTv9Cdkbo7ziwd5Lq_FuGKj5-118bQ01ZKKLpY2L8fghpqsJ75FKAobZuWDzlfhlxc5YdbJwHWUhfdzHSRYFIxoE-WdKPQo6uX_JNJjFz": {
+      "price": 9890.0,
+      "store": "Aeroluz",
+      "title": "AeroluzGainward GeForce RTX 5070 Ti Phoenix-S 16GB GDDR7 256-bitR$ 9.890,0012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A_NpqoHnBwiEdr6rVjKge9PrIGwoKTU56ZXu6fy27tu38fDan6UQ9MR1hT0w3nNZCw0VfxYO4FfXG6t3mliWhxB6yjs-CMY54pf2yaU4SPvtp7tCwqnsaRlngLuKqwqvO-1ijA-fFawckNPpNbX1JoHIKD9i72HJLykOhlus8l-i139-3HpOeQlI_LP9Sq0wODqcXl9fQACLTv9Cdkbo7ziwd5Lq_FuGKj5-118bQ01ZKKLpY2L8fghpqsJ75FKAobZuWDzlfhlxc5YdbJwHWUhfdzHSRYFIxoE-WdKPQo6uX_JNJjFz",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 9.899,9110x|https://api.pcfinder.com.br/api/v1/r/A4sXlpQfZbw4U7qgu-qIbJmUpbSHW8nxAkFX3cxgI91M64_5eDWKA9JljSufyL7Y2RjpbbSmAYOQe_o42rq2EYHoE4z0iWRtkjNqRZrjBMnArxUeYUzQKAyKrwAoa01t-FnVxNIPZ9LeiC_wSwExROxr_D-_YxiWIJcEUG-0VoQb2X8BWdKXYeOG4DgwxcmM79LLq5DcD0snU9PMUq1H_6ihL2_hvZiZptBZJF5DeCZbsod6SvKWqAB_BW_XtnpERF6fGaMITimSB_VYwRB4UTSfHnlj_ZnaVzEabZe4nfx6Q3DfZ6U3WAwHNA": {
+      "price": 9899.91,
+      "store": "KaBuM",
+      "title": "KabumZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 9.899,9110x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A4sXlpQfZbw4U7qgu-qIbJmUpbSHW8nxAkFX3cxgI91M64_5eDWKA9JljSufyL7Y2RjpbbSmAYOQe_o42rq2EYHoE4z0iWRtkjNqRZrjBMnArxUeYUzQKAyKrwAoa01t-FnVxNIPZ9LeiC_wSwExROxr_D-_YxiWIJcEUG-0VoQb2X8BWdKXYeOG4DgwxcmM79LLq5DcD0snU9PMUq1H_6ihL2_hvZiZptBZJF5DeCZbsod6SvKWqAB_BW_XtnpERF6fGaMITimSB_VYwRB4UTSfHnlj_ZnaVzEabZe4nfx6Q3DfZ6U3WAwHNA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 9.899,9912x|https://api.pcfinder.com.br/api/v1/r/A-FJhg8B6xXFJf6QV5MSAM6tT1kvHzwN0B5LmZuXmhC5OJ175UaWkySXRGK-NHte7eBx1DLpW0j_qZxlnhJ6OCzE5fIdfdTW3QX2PFLHWcvOJ4ydvmgaZGM12APySVrZ_xu3d-wMxZZovl7X2dw6dkqBsXRbAgl5w7wqRrF3lDUf8N0lzZ7gvKoef0t-Bp0_9hn6O_AgyEk-y-rZs-mUwCuVlyA4xtN3FJxhg34fQr-K9kxatLY_m6ms1nqu-gqO-pktMeqW1-w": {
+      "price": 9899.99,
+      "store": "Pichau",
+      "title": "PichauMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 9.899,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A-FJhg8B6xXFJf6QV5MSAM6tT1kvHzwN0B5LmZuXmhC5OJ175UaWkySXRGK-NHte7eBx1DLpW0j_qZxlnhJ6OCzE5fIdfdTW3QX2PFLHWcvOJ4ydvmgaZGM12APySVrZ_xu3d-wMxZZovl7X2dw6dkqBsXRbAgl5w7wqRrF3lDUf8N0lzZ7gvKoef0t-Bp0_9hn6O_AgyEk-y-rZs-mUwCuVlyA4xtN3FJxhg34fQr-K9kxatLY_m6ms1nqu-gqO-pktMeqW1-w",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Login|LoginMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 9.950,0710x|https://api.pcfinder.com.br/api/v1/r/Az8bTrZ5Ocw4gjnBGS2F76I9mnT7FT8ZhyndXTdRuh4orWxbqd8cgNcT-ZkILRwV--xM3ggnujQ6tObA02rYr_12CVxY1J46v2nAzhTLmu73YfE6bbHeN0wEm9v6BYkDcYbIF5R2Dmv1f3mi_nOyI67gojE8hSarkJODq3vL_stJBqGU31SVrqm91jXDP4W0baRFpiRts4HClpn6rPeGZkeIYAc1puB3WiXGs0Zpq5OsLKJN1DucjN1DS0dBEtn7NDR8uA": {
+      "price": 9950.07,
+      "store": "Login",
+      "title": "LoginMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 9.950,0710x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Az8bTrZ5Ocw4gjnBGS2F76I9mnT7FT8ZhyndXTdRuh4orWxbqd8cgNcT-ZkILRwV--xM3ggnujQ6tObA02rYr_12CVxY1J46v2nAzhTLmu73YfE6bbHeN0wEm9v6BYkDcYbIF5R2Dmv1f3mi_nOyI67gojE8hSarkJODq3vL_stJBqGU31SVrqm91jXDP4W0baRFpiRts4HClpn6rPeGZkeIYAc1puB3WiXGs0Zpq5OsLKJN1DucjN1DS0dBEtn7NDR8uA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 9.999,0012x|https://api.pcfinder.com.br/api/v1/r/AwlJnBw5FoNKZftBBMAQcT_C8uBiPq6jSeh2wuNkWNAQfIH0TPMpCiBE-MG_QH51uKwdj6rO-qFFy6T3mAa_MbMed77nsxE0SsCUG8ToFuPnXIp8fDkfEBcZOVpuFoRhm7DlEC9-NZMGM0dfinw0NevEeTohR6G4ejXYKJev828YKAtnJrMdUw": {
+      "price": 9999.0,
+      "store": "Amazon",
+      "title": "AmazonMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 9.999,0012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AwlJnBw5FoNKZftBBMAQcT_C8uBiPq6jSeh2wuNkWNAQfIH0TPMpCiBE-MG_QH51uKwdj6rO-qFFy6T3mAa_MbMed77nsxE0SsCUG8ToFuPnXIp8fDkfEBcZOVpuFoRhm7DlEC9-NZMGM0dfinw0NevEeTohR6G4ejXYKJev828YKAtnJrMdUw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti EAGLE OC ICE SFF 16GB GDDR7 256-bitR$ 9.999,9910x|https://api.pcfinder.com.br/api/v1/r/A9DY5FdqOREyPa8Wn0GPPg51nCFIqx54ZcR6GbPabZq5sB1SYpgEnWf9QdwonU3pj7xY5tOUUCscyqnh_cpvZcWfs5OI5vYDl4gBOLKLi7NTMp3JUy35jSxrfhLfLt0l0CV3Jy8TRlu6Rtv-9t3qr9DFOfwuJZH8s5Y2PXfVuqaDqts6WOGaJKNVbOIu5ojGFAmEm-erULt1YxuoSffIqK67BUkdKZNvYWiVoW2U66r6dmsK2GCG4TESTv-_Or-v7y2PkBoG7STweUkzT7WT4q7cfAwvUd0WWZo-fFgIHp1F4SFd9NSflQQXps0gFNNWGwD51PN5IsRzZBuDcBoD_xGuAM5XgIB1VADfGx6wy1cpFnY": {
+      "price": 9999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti EAGLE OC ICE SFF 16GB GDDR7 256-bitR$ 9.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9DY5FdqOREyPa8Wn0GPPg51nCFIqx54ZcR6GbPabZq5sB1SYpgEnWf9QdwonU3pj7xY5tOUUCscyqnh_cpvZcWfs5OI5vYDl4gBOLKLi7NTMp3JUy35jSxrfhLfLt0l0CV3Jy8TRlu6Rtv-9t3qr9DFOfwuJZH8s5Y2PXfVuqaDqts6WOGaJKNVbOIu5ojGFAmEm-erULt1YxuoSffIqK67BUkdKZNvYWiVoW2U66r6dmsK2GCG4TESTv-_Or-v7y2PkBoG7STweUkzT7WT4q7cfAwvUd0WWZo-fFgIHp1F4SFd9NSflQQXps0gFNNWGwD51PN5IsRzZBuDcBoD_xGuAM5XgIB1VADfGx6wy1cpFnY",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 9.999,9910x|https://api.pcfinder.com.br/api/v1/r/A09ou6C8mYeNhw4k0YIJ16JOGAESXTXTGZfNxxxNB1pXW1bncWRSIy5bF3pRAibZ8rIk8HpUDDNBA57x4wduj60Z-b-2rkU-ffnhvUJNBXj0lj5xB1t24vsS0YX4BFcnl55tAY0Uok0ja1PkyMHqm49AjtytYiJRWts3pD8E7T-klRBcX9KUNKQnoyeVLmQcpkkYZnuZ2jZJ6JaKrLW9dv1a3veVLu2CtR1UcmKxbLYVnvc0zwNZ0z6ic6noju0B94YoJAgCG1kRjsbw6JOOYXOF3EHa7IddaTKOqcsO-LdPKJRCMfp8CJ7s0quZ-U9kD00H2mYYfjwCxT6Qr-icMl9Krm4JE8YteZI": {
+      "price": 9999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 9.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A09ou6C8mYeNhw4k0YIJ16JOGAESXTXTGZfNxxxNB1pXW1bncWRSIy5bF3pRAibZ8rIk8HpUDDNBA57x4wduj60Z-b-2rkU-ffnhvUJNBXj0lj5xB1t24vsS0YX4BFcnl55tAY0Uok0ja1PkyMHqm49AjtytYiJRWts3pD8E7T-klRBcX9KUNKQnoyeVLmQcpkkYZnuZ2jZJ6JaKrLW9dv1a3veVLu2CtR1UcmKxbLYVnvc0zwNZ0z6ic6noju0B94YoJAgCG1kRjsbw6JOOYXOF3EHa7IddaTKOqcsO-LdPKJRCMfp8CJ7s0quZ-U9kD00H2mYYfjwCxT6Qr-icMl9Krm4JE8YteZI",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 9.999,9912x|https://api.pcfinder.com.br/api/v1/r/A6kjy-UVlcW8Iw5s5tRXkntmNR9so92RYFrxx2p-nhN3brWcmEcpP8K4K6iM0lzwIaTTMW_yXSkI3p3X-TTc-WjD0buF-Md_NsZDTFgJUuL0FTTaT-aXfRjI4wnjKn1YtPHm9FxbnTYpieg_U3AjUCEMKWaRPug4W_zPjlp0y9tSG1pD6CJEN3ZMENo0iF0UiWLQsfIq4jfkQBO4mMDueUWAZVVHFB9gxF_akCfstgs3MSpuNOqfCTHopZRXjX_W9lIh64RbUEvx727fYC-vWBqYZrJiR5L78s4HTA": {
+      "price": 9999.99,
+      "store": "Pichau",
+      "title": "PichauASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 9.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A6kjy-UVlcW8Iw5s5tRXkntmNR9so92RYFrxx2p-nhN3brWcmEcpP8K4K6iM0lzwIaTTMW_yXSkI3p3X-TTc-WjD0buF-Md_NsZDTFgJUuL0FTTaT-aXfRjI4wnjKn1YtPHm9FxbnTYpieg_U3AjUCEMKWaRPug4W_zPjlp0y9tSG1pD6CJEN3ZMENo0iF0UiWLQsfIq4jfkQBO4mMDueUWAZVVHFB9gxF_akCfstgs3MSpuNOqfCTHopZRXjX_W9lIh64RbUEvx727fYC-vWBqYZrJiR5L78s4HTA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 9.999,9912x|https://api.pcfinder.com.br/api/v1/r/A2rlgeH_EL-qx5PgZ5It7O42KUF4_2BJ-D0VWxgHn8h-UULXf0LU1m6oHyU_IW6oFwiyKja3SqMlWBhkI9bw_rd9wRguwE3GgWArFu3ISO0F-QW1q2tHUjKeVkMesHt-AWMUD2QetUiBfxB1oxmULhE5DQ2reXFqHxnpEmHUgsM6OAozw0NwvBK8ep8mpzwQV5WqiRl3TN17rscWMpB0I-5frxlMJVQ6E_1nQvsnIS8qJ0e2VHGZEFVJXiVXP9gZixq4FZMtkVPoDF_GfL_O0tgFJxUkZiXg": {
+      "price": 9999.99,
+      "store": "Pichau",
+      "title": "PichauASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 9.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A2rlgeH_EL-qx5PgZ5It7O42KUF4_2BJ-D0VWxgHn8h-UULXf0LU1m6oHyU_IW6oFwiyKja3SqMlWBhkI9bw_rd9wRguwE3GgWArFu3ISO0F-QW1q2tHUjKeVkMesHt-AWMUD2QetUiBfxB1oxmULhE5DQ2reXFqHxnpEmHUgsM6OAozw0NwvBK8ep8mpzwQV5WqiRl3TN17rscWMpB0I-5frxlMJVQ6E_1nQvsnIS8qJ0e2VHGZEFVJXiVXP9gZixq4FZMtkVPoDF_GfL_O0tgFJxUkZiXg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 10.299,9912x|https://api.pcfinder.com.br/api/v1/r/A2nhl2rg9QWJWzVB5zBL3Y1cHHid19qGKw2VoiIjouVfYEwdEKFa4GdwmbylDgHqWGfTjjowkcLoyUBetG_sJuABfVrGgXNSks8JdVUoOwJdVpe2ianPPS-XYyw-C_mwL3Ej-K8wL0nw7JUuJPkqCzyTE5rKBGqeASQlZI3fqgkTH7_26DXRGWX55iixIfl7T9gYvAEeYQZgIm63ALsVMrXL81Wb7kHyhkF2ffQ1Fbp68xyOhm7CeQolxyNUnyyvjkXUbNBHn2cX_42KGM_uCCLuvamIn0CS": {
+      "price": 10299.99,
+      "store": "Pichau",
+      "title": "PichauMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 10.299,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A2nhl2rg9QWJWzVB5zBL3Y1cHHid19qGKw2VoiIjouVfYEwdEKFa4GdwmbylDgHqWGfTjjowkcLoyUBetG_sJuABfVrGgXNSks8JdVUoOwJdVpe2ianPPS-XYyw-C_mwL3Ej-K8wL0nw7JUuJPkqCzyTE5rKBGqeASQlZI3fqgkTH7_26DXRGWX55iixIfl7T9gYvAEeYQZgIm63ALsVMrXL81Wb7kHyhkF2ffQ1Fbp68xyOhm7CeQolxyNUnyyvjkXUbNBHn2cX_42KGM_uCCLuvamIn0CS",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Terabyte|TerabyteColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 10.299,9912x|https://api.pcfinder.com.br/api/v1/r/A74mFIrZo0dA6Jkjj8jB40-zDAltVy-5GgXNz6cLjm-Ev2ZGWyqCh1HUDga9RvwoFdnuM7X65Fy35EcawTmThKcry5D5U0K9lKzMMkhMnX9fzCUIeuYFjNTXwgR_tmBbgpCs1kQ0zAf1zG58baoznBEUDJbhtCkLIWAMPZ0kyiIhFBlKwp-l3gBowuYx0AcAs4BuyrIh6DD5aL0OHjYlZpS27X0bZjrBoI_DDoDoLg8qFYmzz6rRVw30qXyvb84NTBB6EZFwOss-IhjnezWA2ksSKacilawIDrBCwDV6VeaGtNj2x4f3tAdoUQW6KtU": {
+      "price": 10299.99,
+      "store": "Terabyte",
+      "title": "TerabyteColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 10.299,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A74mFIrZo0dA6Jkjj8jB40-zDAltVy-5GgXNz6cLjm-Ev2ZGWyqCh1HUDga9RvwoFdnuM7X65Fy35EcawTmThKcry5D5U0K9lKzMMkhMnX9fzCUIeuYFjNTXwgR_tmBbgpCs1kQ0zAf1zG58baoznBEUDJbhtCkLIWAMPZ0kyiIhFBlKwp-l3gBowuYx0AcAs4BuyrIh6DD5aL0OHjYlZpS27X0bZjrBoI_DDoDoLg8qFYmzz6rRVw30qXyvb84NTBB6EZFwOss-IhjnezWA2ksSKacilawIDrBCwDV6VeaGtNj2x4f3tAdoUQW6KtU",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "CiaPC|CiaPCColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 10.500,0012x|https://api.pcfinder.com.br/api/v1/r/Aw1-APBJMGyRyogQG7MkDL6USP0Xu7jw7CJmGU13ZMdxY5l-9LqJ1aNZT-MCL8H5XMTyj36LQGsxFYrEpuqNHcLucSyQxQlQZLUbkKeNXufklt0d_itbUUFGgvF33bRIEYhnR6Cc902hmjhRa29yWO3isv6YJFxRvY1tw8xqFikM4SpiOap6EC1K2RinTdcbqUK-JRxzz71WK9YJDf5T_JQlpcxoG6HY0fs63_pEJctzbQbe7OAfFSuJmje6Bxf1uhn79vG3JTeEHflZVadw8y3fuI2k-hvVMPJ5RbyxKzwJCaKPoYM-x31lpeJPRX7KHA": {
+      "price": 10500.0,
+      "store": "CiaPC",
+      "title": "CiaPCColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 10.500,0012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Aw1-APBJMGyRyogQG7MkDL6USP0Xu7jw7CJmGU13ZMdxY5l-9LqJ1aNZT-MCL8H5XMTyj36LQGsxFYrEpuqNHcLucSyQxQlQZLUbkKeNXufklt0d_itbUUFGgvF33bRIEYhnR6Cc902hmjhRa29yWO3isv6YJFxRvY1tw8xqFikM4SpiOap6EC1K2RinTdcbqUK-JRxzz71WK9YJDf5T_JQlpcxoG6HY0fs63_pEJctzbQbe7OAfFSuJmje6Bxf1uhn79vG3JTeEHflZVadw8y3fuI2k-hvVMPJ5RbyxKzwJCaKPoYM-x31lpeJPRX7KHA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 10.599,9910x|https://api.pcfinder.com.br/api/v1/r/AyUovIAhpU0Bz2l-JqOuhhuDtGux3wlb318iO6JzggkS8DyqUXVOcRFyzaQdyr3OTMVVcuQbJU4209vUAzb10YZ8SmWiwaZb8c5KstCx41SfL3rSubm29q8wawciEmLm5GsnFclDVdIq5B8APYnnPvH-9AneWAztTxBfJHUsu5EvZXo_HNKAXh-SzPVy": {
+      "price": 10599.99,
+      "store": "Amazon",
+      "title": "AmazonGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 10.599,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AyUovIAhpU0Bz2l-JqOuhhuDtGux3wlb318iO6JzggkS8DyqUXVOcRFyzaQdyr3OTMVVcuQbJU4209vUAzb10YZ8SmWiwaZb8c5KstCx41SfL3rSubm29q8wawciEmLm5GsnFclDVdIq5B8APYnnPvH-9AneWAztTxBfJHUsu5EvZXo_HNKAXh-SzPVy",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 10.599,9910x|https://api.pcfinder.com.br/api/v1/r/AzYKoGMTX_-U-bfhtS8py-JvyNq5Zpa5DmCRvO_XhfMBubxz3hLVkp2l3gxNOs0gx003OzgF5Ei493E_byiSCse8eHAAVIjV2MHqZnOIBhyT57aOHs7BMkiGEEX7IoMKq6pNvi0ITuI4Ci8qPgutyjaQi7DrylmCOvDRNZ8XwuF5pa3p5rLjR6-_Hc-_u1yrJFPSfjjTYPhX_YhL1BgeYPz5uj01sc3mXaqtEbOAM9uwCi2zPa4j3XUAxOdJZIu-x7sbT6uFtUeuwy84Ae9ajRz5P9VuNsM5_pLTnRj0180s5neEhHp_5hRiz0p6z-FGnKX6jNkxwWkYzl0CkrwCnQ": {
+      "price": 10599.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 10.599,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AzYKoGMTX_-U-bfhtS8py-JvyNq5Zpa5DmCRvO_XhfMBubxz3hLVkp2l3gxNOs0gx003OzgF5Ei493E_byiSCse8eHAAVIjV2MHqZnOIBhyT57aOHs7BMkiGEEX7IoMKq6pNvi0ITuI4Ci8qPgutyjaQi7DrylmCOvDRNZ8XwuF5pa3p5rLjR6-_Hc-_u1yrJFPSfjjTYPhX_YhL1BgeYPz5uj01sc3mXaqtEbOAM9uwCi2zPa4j3XUAxOdJZIu-x7sbT6uFtUeuwy84Ae9ajRz5P9VuNsM5_pLTnRj0180s5neEhHp_5hRiz0p6z-FGnKX6jNkxwWkYzl0CkrwCnQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 10.599,9912x|https://api.pcfinder.com.br/api/v1/r/A7iDbzkXURbmhLew21W9d0ELaKDFS8doIV6sIPYCxmrzE0L0gesspZa3cKgID3e8VXcanP3SYexi7uEwHwmHzlY8O-IrxTXDRlzuX18WCETsNXf7n_XIwJ2RKPZkofSJdM-9-7FlXJ1bYRNLmVWfvgL5RU3qCrekOgS9xXpSExAci3ifw0W5Mj4eVfKtpYJb7uZdqLT8Ne5A5Ks62FEKSY-79Pp3YBJS3j_1kvek52cKvr22y0o0CCVB2PG0UjtXQ2SaMOsPMpRx1-iWGtSd6EOqeK6--ycbAezge6LE-2tC": {
+      "price": 10599.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16GB GDDR7 256-bitR$ 10.599,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7iDbzkXURbmhLew21W9d0ELaKDFS8doIV6sIPYCxmrzE0L0gesspZa3cKgID3e8VXcanP3SYexi7uEwHwmHzlY8O-IrxTXDRlzuX18WCETsNXf7n_XIwJ2RKPZkofSJdM-9-7FlXJ1bYRNLmVWfvgL5RU3qCrekOgS9xXpSExAci3ifw0W5Mj4eVfKtpYJb7uZdqLT8Ne5A5Ks62FEKSY-79Pp3YBJS3j_1kvek52cKvr22y0o0CCVB2PG0UjtXQ2SaMOsPMpRx1-iWGtSd6EOqeK6--ycbAezge6LE-2tC",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti EAGLE OC ICE SFF 16GB GDDR7 256-bitR$ 10.799,9912x|https://api.pcfinder.com.br/api/v1/r/A15hx5vzfDQr7ZAo6wIz54iBCQbVePJpF9oU274tMTk8UrkKJpEKhjBOvtGd29jQBLVpKHxcURsGrQjxf24imzRKHPzQbJ5mkhBRwG0L8nZEuZvnvl8_mprFq4haaOdSQXnMMeN82H9u3pEC7hOBs5MRlozXoZ-PQdkCuKU9rZ4aLRSRM_lcH4Bu8vYVWbxjMspuHFYaZaoHnraD1wye1EGBFwc1c1VmwE2P-XeNKw9ODkQ_eNPyv4r4EyQoOKNSdkyJ4bk6gkNXAxTaPUndPTDUNYSk9jT9xYmMxi9-91pSN2J19YHGZrUEZW0": {
+      "price": 10799.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti EAGLE OC ICE SFF 16GB GDDR7 256-bitR$ 10.799,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A15hx5vzfDQr7ZAo6wIz54iBCQbVePJpF9oU274tMTk8UrkKJpEKhjBOvtGd29jQBLVpKHxcURsGrQjxf24imzRKHPzQbJ5mkhBRwG0L8nZEuZvnvl8_mprFq4haaOdSQXnMMeN82H9u3pEC7hOBs5MRlozXoZ-PQdkCuKU9rZ4aLRSRM_lcH4Bu8vYVWbxjMspuHFYaZaoHnraD1wye1EGBFwc1c1VmwE2P-XeNKw9ODkQ_eNPyv4r4EyQoOKNSdkyJ4bk6gkNXAxTaPUndPTDUNYSk9jT9xYmMxi9-91pSN2J19YHGZrUEZW0",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "ITX Gamer|ITX GamerMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 10.884,0818x|https://api.pcfinder.com.br/api/v1/r/A3v8J03PQEPX-1Umt6LIRUPK6uLNdtQpfdx5dk_etlTWHSuuURw80SkiTfXwKPTYZ13782o-8SD0FfV2XJIM-kkxrRjMEjek_bV4wzLmsjfMTyiq_BWm3ElCjVki6y0-qC-ewmbiwz2_FJGatqPJYaAD37T65_dTsb13crNN5UjwirWNUpcZ99vjrhCgWyxIlKSuzH0Zz4o9JtGjWeTq9oCzFhSuurHf5-oRnIDoI48b5myoQbLgz1Z72v00PHvOkH8LJvxx3k8kgnBhc1_DL4UcCIOslgKr05Wzau5QlSy4B5EEaw": {
+      "price": 10884.08,
+      "store": "ITX Gamer",
+      "title": "ITX GamerMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 10.884,0818x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A3v8J03PQEPX-1Umt6LIRUPK6uLNdtQpfdx5dk_etlTWHSuuURw80SkiTfXwKPTYZ13782o-8SD0FfV2XJIM-kkxrRjMEjek_bV4wzLmsjfMTyiq_BWm3ElCjVki6y0-qC-ewmbiwz2_FJGatqPJYaAD37T65_dTsb13crNN5UjwirWNUpcZ99vjrhCgWyxIlKSuzH0Zz4o9JtGjWeTq9oCzFhSuurHf5-oRnIDoI48b5myoQbLgz1Z72v00PHvOkH8LJvxx3k8kgnBhc1_DL4UcCIOslgKr05Wzau5QlSy4B5EEaw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 10.899,9910x|https://api.pcfinder.com.br/api/v1/r/A0ygLcA1hiT-hfXv8nXHucX1-llolFFmIOLDwAakMhqNI5Cn6n9JLBaqrwZHicO8DrXTQo8mjNzuxTKUTQloOTymYtFBfgRTSoISmIVTs7O4PAs_cWCb117J9R2iiByTQQi_kaSK7H_0VHTvuYWEAEH8mBl-e6aCbGZqckDe2JnIDb-OshBEtwpAVCkKLsKRrqHj0HuviWica_ond3UiRrJovraheP1gauo9ofLwCDsG7t1k9AOuCxUtzkLXS6CuCBCMu0C11DMctyCZO14DTn0JB53_OdiNvY78OIzs": {
+      "price": 10899.99,
+      "store": "KaBuM",
+      "title": "KabumMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 10.899,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A0ygLcA1hiT-hfXv8nXHucX1-llolFFmIOLDwAakMhqNI5Cn6n9JLBaqrwZHicO8DrXTQo8mjNzuxTKUTQloOTymYtFBfgRTSoISmIVTs7O4PAs_cWCb117J9R2iiByTQQi_kaSK7H_0VHTvuYWEAEH8mBl-e6aCbGZqckDe2JnIDb-OshBEtwpAVCkKLsKRrqHj0HuviWica_ond3UiRrJovraheP1gauo9ofLwCDsG7t1k9AOuCxUtzkLXS6CuCBCMu0C11DMctyCZO14DTn0JB53_OdiNvY78OIzs",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 10.999,9910x|https://api.pcfinder.com.br/api/v1/r/AzNEfivVMD-huzSPqoh9-Emwq0Ur_WVl8UA0O83nfbMI2-QtQDtaVIpc1KvAv_YCvfu4zpmkAwjkNQfV71sDzcrnTc2L7YdgnCqY4A0VT5CG417kUaPk3moRB7t4kvUGFaIMy8V1snl8Z5lyiuK8omVYBTz2-kWMTlAWry2o10jPRThL2clbr29H": {
+      "price": 10999.99,
+      "store": "Amazon",
+      "title": "AmazonGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 10.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AzNEfivVMD-huzSPqoh9-Emwq0Ur_WVl8UA0O83nfbMI2-QtQDtaVIpc1KvAv_YCvfu4zpmkAwjkNQfV71sDzcrnTc2L7YdgnCqY4A0VT5CG417kUaPk3moRB7t4kvUGFaIMy8V1snl8Z5lyiuK8omVYBTz2-kWMTlAWry2o10jPRThL2clbr29H",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti GAMING OC 16GB GDDR7 256-bit 9VN507TGO-00-G10R$ 10.999,9910x|https://api.pcfinder.com.br/api/v1/r/A9nXnKMELT7wahCq4kl4Hdtx0UsnrQY_SIrxgm8dF12xCFpj1xxYHgmPAxzPYZQzRYmNkT1DA-RpNUmLBZnTuwnUtDrhd_yxhrNSIZAubriW-9RTRIkqOekFJkt0wdED9Q8v5CS-bqzuhHHeVYYJnLflL4YgL5bE6T36ajGNvqBTMMiCQPwd5Rb41gTLJ_8A0MuetmiNAlJ80U5M6pb4Wq-sIYAp1TAqdwQ4badbmNX_-UViBc9CJKUwDCXjhuiQUWaXKZzYBPkLlky2EW2zVnEBdS5s1RNm46Xw3zt4_vDlEWJPbqCYXV_tjW52ckrdfS30YTt5dE1AxIq84XLysjP8HmmDj1_vQeM3rB1F3OfL5JbORg": {
+      "price": 10999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti GAMING OC 16GB GDDR7 256-bit 9VN507TGO-00-G10R$ 10.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9nXnKMELT7wahCq4kl4Hdtx0UsnrQY_SIrxgm8dF12xCFpj1xxYHgmPAxzPYZQzRYmNkT1DA-RpNUmLBZnTuwnUtDrhd_yxhrNSIZAubriW-9RTRIkqOekFJkt0wdED9Q8v5CS-bqzuhHHeVYYJnLflL4YgL5bE6T36ajGNvqBTMMiCQPwd5Rb41gTLJ_8A0MuetmiNAlJ80U5M6pb4Wq-sIYAp1TAqdwQ4badbmNX_-UViBc9CJKUwDCXjhuiQUWaXKZzYBPkLlky2EW2zVnEBdS5s1RNm46Xw3zt4_vDlEWJPbqCYXV_tjW52ckrdfS30YTt5dE1AxIq84XLysjP8HmmDj1_vQeM3rB1F3OfL5JbORg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 10.999,9910x|https://api.pcfinder.com.br/api/v1/r/A5qvERcN27UiOjXnN5uychYF3blOyjUv4zyMQkrn4fChULU5DMuCH-L3tSfz5UajjVqPsmNi5TC-0DsaRrkVXc2mrmWrs1n81r2j2p5HVwLXjd1Ri7L4uuIKgzzELPhitozaunkrSo_JhYz8sKDpf5RZuLdjZ_h74uk1xpZ5aeC4WVkMrHxNjbUuMF14ra_Dh2HZgk-TyF-hYRYGHnmjS9Ij3CRlMpqCsuRCPatKlI501qIZkhfuYj09EUHo4f-YkZYM1HeHpLw6rzYb7gXOOQsL6vMeFsHpyFXJY2Y3CfVN9--kQeIv2Azh4myZMuY4qFwZBUavPwb41ACMFMbpFIw": {
+      "price": 10999.99,
+      "store": "KaBuM",
+      "title": "KabumZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 10.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A5qvERcN27UiOjXnN5uychYF3blOyjUv4zyMQkrn4fChULU5DMuCH-L3tSfz5UajjVqPsmNi5TC-0DsaRrkVXc2mrmWrs1n81r2j2p5HVwLXjd1Ri7L4uuIKgzzELPhitozaunkrSo_JhYz8sKDpf5RZuLdjZ_h74uk1xpZ5aeC4WVkMrHxNjbUuMF14ra_Dh2HZgk-TyF-hYRYGHnmjS9Ij3CRlMpqCsuRCPatKlI501qIZkhfuYj09EUHo4f-YkZYM1HeHpLw6rzYb7gXOOQsL6vMeFsHpyFXJY2Y3CfVN9--kQeIv2Azh4myZMuY4qFwZBUavPwb41ACMFMbpFIw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bitR$ 10.999,9910x|https://api.pcfinder.com.br/api/v1/r/AxKjeXZQRi3dlUMiG8j-K6HaEDGn4P4fQkBnQG1wx48sgsTa73xIdylwSCFopwQeq43dai59QbQwsPOWnvZxJ_wMiSAZnMUJ-NA3auLifYpn8Cw_Nb4baGdvR-GJWRO-R4ki55CKts-D7PGuQKdk3q3vwfxHgZVlvtWWvfKsuhdrOVYzbAJskywHDXmoLIX8Qru_O2BYgNsC-5xQHvGXfdWI4QWzkRrb4Xi9IqnFMJgfEfzcW-QjfN0KEMmxf1Y4IHg2P10ZVeTMfPNWJ-vB9zCYYORwHJ6Tjz0jxWFU8CQMv8PLbtfjLRHqD2bptcu3F_q-CYIYNNuX3-ytEIbQ0YFdlQ54xJIVTXnlnWU": {
+      "price": 10999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti WINDFORCE OC SFF 16G GDDR7 256-bitR$ 10.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AxKjeXZQRi3dlUMiG8j-K6HaEDGn4P4fQkBnQG1wx48sgsTa73xIdylwSCFopwQeq43dai59QbQwsPOWnvZxJ_wMiSAZnMUJ-NA3auLifYpn8Cw_Nb4baGdvR-GJWRO-R4ki55CKts-D7PGuQKdk3q3vwfxHgZVlvtWWvfKsuhdrOVYzbAJskywHDXmoLIX8Qru_O2BYgNsC-5xQHvGXfdWI4QWzkRrb4Xi9IqnFMJgfEfzcW-QjfN0KEMmxf1Y4IHg2P10ZVeTMfPNWJ-vB9zCYYORwHJ6Tjz0jxWFU8CQMv8PLbtfjLRHqD2bptcu3F_q-CYIYNNuX3-ytEIbQ0YFdlQ54xJIVTXnlnWU",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 10.999,9912x|https://api.pcfinder.com.br/api/v1/r/AwqKSZA_QcDMSoat5WZgm87AGWgHhHI31lMgcuuRkNOBSkefrQVd_70QNpJBytQHbO7gBJUJMd4bwyjJmD04yetg064Nu-Gj5L0n29nAh2atPMRYWQVjTEwSiBbHOwpP_AFKRF_02ir-cmzo56wp5bETMveOW81Gf23mGBr-ZNIFeEo5322MXfwi7o519kxHR-Ix76kaXCOeyXXs3mfbVpCZfJp7KIc2pz8mEEL2MnaK-gHu6K--R5JMSHgQ51PDWwPdeRwTUzQO7e1wbx0d1zYlQwQtqw": {
+      "price": 10999.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 10.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AwqKSZA_QcDMSoat5WZgm87AGWgHhHI31lMgcuuRkNOBSkefrQVd_70QNpJBytQHbO7gBJUJMd4bwyjJmD04yetg064Nu-Gj5L0n29nAh2atPMRYWQVjTEwSiBbHOwpP_AFKRF_02ir-cmzo56wp5bETMveOW81Gf23mGBr-ZNIFeEo5322MXfwi7o519kxHR-Ix76kaXCOeyXXs3mfbVpCZfJp7KIc2pz8mEEL2MnaK-gHu6K--R5JMSHgQ51PDWwPdeRwTUzQO7e1wbx0d1zYlQwQtqw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 10.999,9912x|https://api.pcfinder.com.br/api/v1/r/A7avRmRL1ZSyNfobz4OXEyxfaEj36qL7vb4d_j4l2mwW0zD6Qo-Dijfzbfe5_h-1cL6IOkuc8CZo6SXiWRmPGvB4O-cOXNJZWZWw7MP2fErY0eEZ9IlF4Ozz1eZ8o3cZMMYcANj2ylqQwlOZ-zzoGohrgZ0oYYk2LWcyccpGKH_zRP8qkj3XrgBXkQO_jdX7sowfIMFNXQnQlF_MSyDoP5dwOvgVEcqjnoDkcU4_7A0p2-m5gCDukwwUFstS9uLaGWUxkDBQFBwyYUXR1wgoB40ovcUkRspgrG6E5g": {
+      "price": 10999.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 10.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7avRmRL1ZSyNfobz4OXEyxfaEj36qL7vb4d_j4l2mwW0zD6Qo-Dijfzbfe5_h-1cL6IOkuc8CZo6SXiWRmPGvB4O-cOXNJZWZWw7MP2fErY0eEZ9IlF4Ozz1eZ8o3cZMMYcANj2ylqQwlOZ-zzoGohrgZ0oYYk2LWcyccpGKH_zRP8qkj3XrgBXkQO_jdX7sowfIMFNXQnQlF_MSyDoP5dwOvgVEcqjnoDkcU4_7A0p2-m5gCDukwwUFstS9uLaGWUxkDBQFBwyYUXR1wgoB40ovcUkRspgrG6E5g",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumPalit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256-bitR$ 11.004,4810x|https://api.pcfinder.com.br/api/v1/r/A-iCPYtkChrKBIuy-K_XVtpoQx-6KNn_OkfXpbM1Vte4BXZwGkzEk-siD4kdJxo2d3DDdIc6e7zLnI-iF6IGdGSbmgNLleW05QFfERGt8LBWTnJQPkpAfEYUQGEC51GDjeibMwq1a59UwpKLjUuUCSYy41FpJSff4n2UM4EzoMGsxmYaN0lSAkRq6su8eOzBpx8VU-phVKKHzLnidVuddpUlwGo6RXVIaW9QnAGPOBrCESZ5tnrhMS4HIhCWrTfVLSf1Xv0XXnrsyKd4LCluOZpHQzh001zp_F80vwWdZQV9dqjSuYk": {
+      "price": 11004.48,
+      "store": "KaBuM",
+      "title": "KabumPalit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256-bitR$ 11.004,4810x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A-iCPYtkChrKBIuy-K_XVtpoQx-6KNn_OkfXpbM1Vte4BXZwGkzEk-siD4kdJxo2d3DDdIc6e7zLnI-iF6IGdGSbmgNLleW05QFfERGt8LBWTnJQPkpAfEYUQGEC51GDjeibMwq1a59UwpKLjUuUCSYy41FpJSff4n2UM4EzoMGsxmYaN0lSAkRq6su8eOzBpx8VU-phVKKHzLnidVuddpUlwGo6RXVIaW9QnAGPOBrCESZ5tnrhMS4HIhCWrTfVLSf1Xv0XXnrsyKd4LCluOZpHQzh001zp_F80vwWdZQV9dqjSuYk",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Terabyte|TerabyteMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 11.299,9912x|https://api.pcfinder.com.br/api/v1/r/A3YLW73oJ73qb1r0MWzn5rDYfSRoqvLj3D_yEXyeZCmVMcdfJCTu3DM0QxttX4lMirrk2TFfKe5YNVMewzctn1ETkiAxv7hDjfva92xPMM6CYt8O8dsE51pYR8FEyPoiAeo4_vbN6-6YxcGd-QoeOFVRh_Xxn_2mOQYChsBfdR1T-vR7rOEYTViZ_u3TwxDdrAJ0Fm7Ve1O4uT2T1rwGqW6UKfP6MZXQoczBrXeZW8k9c2ViU-Sl7zqcZB6lRrgGVdXq5z8HbPp39tWmwHkTlS3Gy99IvfsmB4rZJ4rXKpbvISQ33HIhvnYbMfoM3wLzfnU3Xg": {
+      "price": 11299.99,
+      "store": "Terabyte",
+      "title": "TerabyteMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 11.299,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A3YLW73oJ73qb1r0MWzn5rDYfSRoqvLj3D_yEXyeZCmVMcdfJCTu3DM0QxttX4lMirrk2TFfKe5YNVMewzctn1ETkiAxv7hDjfva92xPMM6CYt8O8dsE51pYR8FEyPoiAeo4_vbN6-6YxcGd-QoeOFVRh_Xxn_2mOQYChsBfdR1T-vR7rOEYTViZ_u3TwxDdrAJ0Fm7Ve1O4uT2T1rwGqW6UKfP6MZXQoczBrXeZW8k9c2ViU-Sl7zqcZB6lRrgGVdXq5z8HbPp39tWmwHkTlS3Gy99IvfsmB4rZJ4rXKpbvISQ33HIhvnYbMfoM3wLzfnU3Xg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 11.475,3010x|https://api.pcfinder.com.br/api/v1/r/A4xvadRaQwyfcH9O0aDYmrQ5e-j4XbBjMH1FyP-B-WxRQnFEIRAKqLA25BKfwyFc-12G8UIUzAsf2sjBVYoOLg3fdloJnkcDJnCBSSxaZgm-uXw8Rk3yKRz6iPKRpzjdRD-s17rtg0DnR7LBlApwWzFa2lnViKzjEYupMqRp-plfODHyt9zoIEgJYkfSZjvlVDDAqZu__0qfOYKPEhp5ATdwUjejo8xmPuL9kacTHEztiVY-Tih-rsyV9mBAm_Wp4XdK6EZP95xgavD1s5Zrx6QKgIY": {
+      "price": 11475.3,
+      "store": "KaBuM",
+      "title": "KabumZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 11.475,3010x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A4xvadRaQwyfcH9O0aDYmrQ5e-j4XbBjMH1FyP-B-WxRQnFEIRAKqLA25BKfwyFc-12G8UIUzAsf2sjBVYoOLg3fdloJnkcDJnCBSSxaZgm-uXw8Rk3yKRz6iPKRpzjdRD-s17rtg0DnR7LBlApwWzFa2lnViKzjEYupMqRp-plfODHyt9zoIEgJYkfSZjvlVDDAqZu__0qfOYKPEhp5ATdwUjejo8xmPuL9kacTHEztiVY-Tih-rsyV9mBAm_Wp4XdK6EZP95xgavD1s5Zrx6QKgIY",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Terabyte|TerabyteASUS ProArt GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 11.499,9912x|https://api.pcfinder.com.br/api/v1/r/AzTcc6xKpZiOOb-n9G8F7idScVZSYjL8M8V_qzVq_-zUUJwZq6q360IJYFKkAKrc4aeJMD_t3TGAPVdPmuhszSdbJ1PmS1_bdJ0SBmBMmOTWlDQYM9QHZu1lezF4MzQlm8bEwEK6veJBKW6L8bgvLG-9YIazpAQR9oXIEflsKR0En0RstZoCcPoKVfrKv1Fs7tohMRAWPwJ-dEzId-WtUbAF331baW9MW4RiUTHsuQlOcqZcbCnzNnuLQGT5M3hK4L6E7-dzD_ebfuO6uGToe1_Yrx_KNLzQenOQUkYUuSKwrZ5K53f2iTqHW8nSHolyxk8NRbld59mM": {
+      "price": 11499.99,
+      "store": "Terabyte",
+      "title": "TerabyteASUS ProArt GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 11.499,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AzTcc6xKpZiOOb-n9G8F7idScVZSYjL8M8V_qzVq_-zUUJwZq6q360IJYFKkAKrc4aeJMD_t3TGAPVdPmuhszSdbJ1PmS1_bdJ0SBmBMmOTWlDQYM9QHZu1lezF4MzQlm8bEwEK6veJBKW6L8bgvLG-9YIazpAQR9oXIEflsKR0En0RstZoCcPoKVfrKv1Fs7tohMRAWPwJ-dEzId-WtUbAF331baW9MW4RiUTHsuQlOcqZcbCnzNnuLQGT5M3hK4L6E7-dzD_ebfuO6uGToe1_Yrx_KNLzQenOQUkYUuSKwrZ5K53f2iTqHW8nSHolyxk8NRbld59mM",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 11.590,9012x|https://api.pcfinder.com.br/api/v1/r/A_5CdzjDrlb7Dcf67KZuUF60CWS_ODg8DaygpGit4u3M-AIziDJ3liUIm-Ua4Yb_9BBW-a0iu-XDu9s_LpPilkC3h10VkupCYc0owwoxw-cAse53ke3lSX9C9trexnoh2-TQ1XZfAqLGdqaUZCXI82mRuNARmN3TEw7IgFLdk16PeC9-fSgU9_4": {
+      "price": 11590.9,
+      "store": "Amazon",
+      "title": "AmazonMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 11.590,9012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A_5CdzjDrlb7Dcf67KZuUF60CWS_ODg8DaygpGit4u3M-AIziDJ3liUIm-Ua4Yb_9BBW-a0iu-XDu9s_LpPilkC3h10VkupCYc0owwoxw-cAse53ke3lSX9C9trexnoh2-TQ1XZfAqLGdqaUZCXI82mRuNARmN3TEw7IgFLdk16PeC9-fSgU9_4",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 11.959,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/A49jiLm1s7Oays6-h1X8SVPZuorB_scYJgTexwG8j4rzub_dlj2NNuh56X1X48tFJNE_V8E6ntqLNYQYx09tDdYDAjOXuDiDVCsd2h6pWsf0PnJwwZQBpRkUOQDb6PlPpKE4_muhKktovUa-LajlAM7ST37SianvYQWmFTNe78es5V-VJaVMfWQX1N9j8dDnrkYxvhb72VbcpD5KJyzti5DEtqLoyRN4UhaIJbUPEJT__YX_UXE7X72ZLzwkK5RDHZe0xyrwljzy1N4NhKitLf_7W_pnYXh-pAqS5L_NuXadzl_XcVLBzd1NhRnvUleikbO_MlLH_kK8yWGOp4bwblJ3jqZ5--Q1JLUx883btzWZK3inpvuuIwZoY6b8VbSrQS9V55pgvCiCxkGugnMDuQ": {
+      "price": 11959.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 11.959,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A49jiLm1s7Oays6-h1X8SVPZuorB_scYJgTexwG8j4rzub_dlj2NNuh56X1X48tFJNE_V8E6ntqLNYQYx09tDdYDAjOXuDiDVCsd2h6pWsf0PnJwwZQBpRkUOQDb6PlPpKE4_muhKktovUa-LajlAM7ST37SianvYQWmFTNe78es5V-VJaVMfWQX1N9j8dDnrkYxvhb72VbcpD5KJyzti5DEtqLoyRN4UhaIJbUPEJT__YX_UXE7X72ZLzwkK5RDHZe0xyrwljzy1N4NhKitLf_7W_pnYXh-pAqS5L_NuXadzl_XcVLBzd1NhRnvUleikbO_MlLH_kK8yWGOp4bwblJ3jqZ5--Q1JLUx883btzWZK3inpvuuIwZoY6b8VbSrQS9V55pgvCiCxkGugnMDuQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 12.099,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/A-3aiENc6CkKLO6QTwQzUMIOIAPWT7Vv2tetpbuLP3BUgc9pekGvXcAUAwSZRXx2wdDRLEg4onFa1JIGtERviporx90h7WSbxFny9zKo-InsvEDfWQD7FX17ZFksY3ciePDNyVSk3zJ6XSOBVlLxFdb22fY-N5WR2KdF39TyJxreeI-gJdfqrXhhjlHLuA57dsAAYWsZRLJ0TZwCPrBsldH2OvEi-d0qzPQyZLikQTLTaDYjpmavbd43WFTo-lelgFLDn51WW1tc1AVYQR3FzXFZZ035szG7_KInJ4RvGQmFC0pafys5PAOnPM5cYsmZU04IcdLZZkvxf2_038l5l3vS_pTKdzG7k1iCsfjdtuXFMJt1l6ThG2d7ky_TFKMl3S7XFCZtYR51tN7cgberEkj7_75W_3e7dKE": {
+      "price": 12099.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 12.099,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A-3aiENc6CkKLO6QTwQzUMIOIAPWT7Vv2tetpbuLP3BUgc9pekGvXcAUAwSZRXx2wdDRLEg4onFa1JIGtERviporx90h7WSbxFny9zKo-InsvEDfWQD7FX17ZFksY3ciePDNyVSk3zJ6XSOBVlLxFdb22fY-N5WR2KdF39TyJxreeI-gJdfqrXhhjlHLuA57dsAAYWsZRLJ0TZwCPrBsldH2OvEi-d0qzPQyZLikQTLTaDYjpmavbd43WFTo-lelgFLDn51WW1tc1AVYQR3FzXFZZ035szG7_KInJ4RvGQmFC0pafys5PAOnPM5cYsmZU04IcdLZZkvxf2_038l5l3vS_pTKdzG7k1iCsfjdtuXFMJt1l6ThG2d7ky_TFKMl3S7XFCZtYR51tN7cgberEkj7_75W_3e7dKE",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineMSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7R$ 12.099,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/Aw3t9p08j06iedrcaBwz8asngO8hXckUmPnExXPghquy3pANm8wtm3GQix6nwpaFcMtZn8CYcyLakpeSuHrvD9rhjmrWpiUdzJov8w4l7XSVq_EqgZomxFC-ljNg4PXpUhyLUP5lkxku6ft0qg-akmSPXSDzbl3gxVPBnt1cz2WyD2rju2ApcHE_ixtNT5NdZMhl9QkFujZnEKKBovBc-pSVLhXJLh1b9XMds_8xwV9ptUhm9V5bmJ_NwNqHePChX_v8vJAJJgq4O0al2NQ2qJI0aO5kF41a0HjOhdEPXcuEzB1AsrUNC5ix83sDql8ws1ZENQledvfFcYatxcPMuYTc3beVmW1v3AcCZBXngSoKCKMRQKqfpUfgSA9JKVd18sN_tO20_1ygiFCRQ7ap_hSpU4BOHZdbka4yZJhlMKzFVE2MUm_xDhA": {
+      "price": 12099.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineMSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7R$ 12.099,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Aw3t9p08j06iedrcaBwz8asngO8hXckUmPnExXPghquy3pANm8wtm3GQix6nwpaFcMtZn8CYcyLakpeSuHrvD9rhjmrWpiUdzJov8w4l7XSVq_EqgZomxFC-ljNg4PXpUhyLUP5lkxku6ft0qg-akmSPXSDzbl3gxVPBnt1cz2WyD2rju2ApcHE_ixtNT5NdZMhl9QkFujZnEKKBovBc-pSVLhXJLh1b9XMds_8xwV9ptUhm9V5bmJ_NwNqHePChX_v8vJAJJgq4O0al2NQ2qJI0aO5kF41a0HjOhdEPXcuEzB1AsrUNC5ix83sDql8ws1ZENQledvfFcYatxcPMuYTc3beVmW1v3AcCZBXngSoKCKMRQKqfpUfgSA9JKVd18sN_tO20_1ygiFCRQ7ap_hSpU4BOHZdbka4yZJhlMKzFVE2MUm_xDhA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 12.134,9910x|https://api.pcfinder.com.br/api/v1/r/A7E0Z-lScIxCRD9W3C0SC40UZi4rTg5qu_ba_dcwzLvcZAPjt0ESL1tlMY8m86oGOQJR_r0-Bc31LZPLW3oxlLt_rPUjB3-YaR6WQuQN5zAUd8HZrdIG4JUdx0SMLC68Ynh_fN4e-RXBSTOMOQ66l2V1rbBlBWnYkdhq4nUYriNlHPyLXc4WzAGBmvNQstJbx1RNYEgHbfmATVhu4bCuCo2mkZOpi_XnNlt8VRKWmUbiTe1zSt-TIYVWa_M9XxkypysPjc7xWot_I_OieRVDWNgwdVOwjzn1nrEQ6qDtzJefjbGEcI_61Q": {
+      "price": 12134.99,
+      "store": "KaBuM",
+      "title": "KabumColorful iGame GeForce RTX 5070 Ti Ultra OC 16GB GDDR7R$ 12.134,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7E0Z-lScIxCRD9W3C0SC40UZi4rTg5qu_ba_dcwzLvcZAPjt0ESL1tlMY8m86oGOQJR_r0-Bc31LZPLW3oxlLt_rPUjB3-YaR6WQuQN5zAUd8HZrdIG4JUdx0SMLC68Ynh_fN4e-RXBSTOMOQ66l2V1rbBlBWnYkdhq4nUYriNlHPyLXc4WzAGBmvNQstJbx1RNYEgHbfmATVhu4bCuCo2mkZOpi_XnNlt8VRKWmUbiTe1zSt-TIYVWa_M9XxkypysPjc7xWot_I_OieRVDWNgwdVOwjzn1nrEQ6qDtzJefjbGEcI_61Q",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Oficina dos Bits|Oficina dos BitsZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 12.499,9012x|https://api.pcfinder.com.br/api/v1/r/A0ynv1cadcBd5l6xGfYxa4Or9jbqYzRAqzUyytK8z-bzNJiM-MiSZg2z7yOTL07ZNcM7AHTLGGcCdIyjsCY_IPGt8dP-ZJ08ZaZP-uCJxd_ZAn_Sw3JXhXeSEMXvD3YaiWDKbX9UT1dt3O8ZpVCeOsuX2-vhob0l51E_uAtBF_CPGv1ID5zYtRfVNG1wg8iS6v2vZ9afzAV8B2XKRtHyPuPPZWUCvayt1VSzWbrz2xQl-DHoHuzOyUIU5E0a7F68SxsTt94gbNYvCL6EEm7KwpJGoQi1eibjCAvc4ajuwd8hWdkM02x9oSiCob8Xy9ULZLUyjHg09uGJkm_c06t9nTmLEn0ZKoQ": {
+      "price": 12499.9,
+      "store": "Oficina dos Bits",
+      "title": "Oficina dos BitsZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 12.499,9012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A0ynv1cadcBd5l6xGfYxa4Or9jbqYzRAqzUyytK8z-bzNJiM-MiSZg2z7yOTL07ZNcM7AHTLGGcCdIyjsCY_IPGt8dP-ZJ08ZaZP-uCJxd_ZAn_Sw3JXhXeSEMXvD3YaiWDKbX9UT1dt3O8ZpVCeOsuX2-vhob0l51E_uAtBF_CPGv1ID5zYtRfVNG1wg8iS6v2vZ9afzAV8B2XKRtHyPuPPZWUCvayt1VSzWbrz2xQl-DHoHuzOyUIU5E0a7F68SxsTt94gbNYvCL6EEm7KwpJGoQi1eibjCAvc4ajuwd8hWdkM02x9oSiCob8Xy9ULZLUyjHg09uGJkm_c06t9nTmLEn0ZKoQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 12.519,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/A9J9euo3TXRIcLCGwlTnV1WnSPNODNjv80EqJXjAshjyurveFFV8sLfrPe_syx4p-UV6CX2yWbug9Nt3CG0fJ75OZ8S9CDiDYTZB3FSm54_3Nop2u4z8Ayd0LqE0HhgHOlU9SKgnX3_Ci-CxQLsB3vMLW8b4IyPxljM9zR2nP_jFKqoUOxyesLSG7SN-o8fUq322nIKN7pCE9dpbjnfilWbDvDPMqNULlBuken92WkhPfpnuxUZMLTVRPpASRnysEMt3jFQOM5P13EytMoJcYOFjjbBtbP74TFtfay4hkgWGPn5ffNGZh02JU95K6y4TbxCHI2BRImZNxWvmrXTs8LgAHT_hAp7v-uRelRf8i01pgiM0VoTqakCQsfTHo31WRZvu80dJWEzIYd7uDOvnNg2aLvvH3SwkIdjwY4BrBeifL-IGYbiu3uqhlHQDlCRci2fRZg": {
+      "price": 12519.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 12.519,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9J9euo3TXRIcLCGwlTnV1WnSPNODNjv80EqJXjAshjyurveFFV8sLfrPe_syx4p-UV6CX2yWbug9Nt3CG0fJ75OZ8S9CDiDYTZB3FSm54_3Nop2u4z8Ayd0LqE0HhgHOlU9SKgnX3_Ci-CxQLsB3vMLW8b4IyPxljM9zR2nP_jFKqoUOxyesLSG7SN-o8fUq322nIKN7pCE9dpbjnfilWbDvDPMqNULlBuken92WkhPfpnuxUZMLTVRPpASRnysEMt3jFQOM5P13EytMoJcYOFjjbBtbP74TFtfay4hkgWGPn5ffNGZh02JU95K6y4TbxCHI2BRImZNxWvmrXTs8LgAHT_hAp7v-uRelRf8i01pgiM0VoTqakCQsfTHo31WRZvu80dJWEzIYd7uDOvnNg2aLvvH3SwkIdjwY4BrBeifL-IGYbiu3uqhlHQDlCRci2fRZg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonPalit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256-bitR$ 12.946,4512x|https://api.pcfinder.com.br/api/v1/r/A46tCIaFs6-C6FGhf9vs7jwe4Et0dAH7Q2H2Qbz6Tvvl2W7OxZlsLln6XAMWyM6FnPQtoXv8TUSbmdl_b0fCbSBhZ-3Zfx9H0rdK4x0SOXxmXbOPLyTi4ACjreLz6x_3J2GsrcKQB3oRIzatFwTg77dKqj18VqdcUidifqxnIxpitGf9BRZsnA0": {
+      "price": 12946.45,
+      "store": "Amazon",
+      "title": "AmazonPalit GeForce RTX 5070 Ti GamingPro-S 16GB GDDR7 256-bitR$ 12.946,4512x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A46tCIaFs6-C6FGhf9vs7jwe4Et0dAH7Q2H2Qbz6Tvvl2W7OxZlsLln6XAMWyM6FnPQtoXv8TUSbmdl_b0fCbSBhZ-3Zfx9H0rdK4x0SOXxmXbOPLyTi4ACjreLz6x_3J2GsrcKQB3oRIzatFwTg77dKqj18VqdcUidifqxnIxpitGf9BRZsnA0",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 12.999,9910x|https://api.pcfinder.com.br/api/v1/r/A_wjzGP_MVDuJS47PPRzrQvGyEAj5zbzQN6Tof0V67Cb8cn2VlO4Llrj07n4dMlrO0bubL8__Q2sWmbelRFqdI37Ex3VNaf52BZjbqrWkEHlIcfj3zSkQbk4PfOZEfURoBEU3Zv6OlIWh8fSK4apVzOfV_fYR4gqvUsQ7nCONCHlNko_jfvpIOXpqwjrmrSg73F2XDIbb_zWhqmuC78lDv2StK4NrUiowF0sHh5UmzSgai-LTgYdDTqH_PBBO-CRb7bHZV3Iutb_tdDGd3X5ZVt6lZZFobAuss3qGCbCz5EuzKco04Z70NhdzQ7QV4H23JBpecYMiO_yHDYu9-Udwb_h": {
+      "price": 12999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 12.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A_wjzGP_MVDuJS47PPRzrQvGyEAj5zbzQN6Tof0V67Cb8cn2VlO4Llrj07n4dMlrO0bubL8__Q2sWmbelRFqdI37Ex3VNaf52BZjbqrWkEHlIcfj3zSkQbk4PfOZEfURoBEU3Zv6OlIWh8fSK4apVzOfV_fYR4gqvUsQ7nCONCHlNko_jfvpIOXpqwjrmrSg73F2XDIbb_zWhqmuC78lDv2StK4NrUiowF0sHh5UmzSgai-LTgYdDTqH_PBBO-CRb7bHZV3Iutb_tdDGd3X5ZVt6lZZFobAuss3qGCbCz5EuzKco04Z70NhdzQ7QV4H23JBpecYMiO_yHDYu9-Udwb_h",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Pichau|PichauGigabyte GeForce RTX 5070 Ti Aorus Infinity 16GB GDDR7 256-bitR$ 12.999,9912x|https://api.pcfinder.com.br/api/v1/r/A4qvOSrBg2XL3bDmjqNWihKveD3f2PCRsKPDBEvIdImiprYKhwLQsGqKGZC_tDi7QLeHogAC1WbFEkjeM3SJWb6kqVM4dn3qw4okyP9xtwJR78LI3wY2q01A44C9L8hzo2eie8p85biVSo1QKe4Kn5_Tza8Le1hDErdmjjprI2QfjUtJY0NYfu2y_LWx5ocJEIWdQaU-78Eavis0s0ursMWCdHYz3o47Zggz9aq135zYoWBo6StU60MUutc-tFDn9esYoFhgioHJl1tDRYNXvoVtBm-ILqbaagT8ZevCgOGWmoOPJw": {
+      "price": 12999.99,
+      "store": "Pichau",
+      "title": "PichauGigabyte GeForce RTX 5070 Ti Aorus Infinity 16GB GDDR7 256-bitR$ 12.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A4qvOSrBg2XL3bDmjqNWihKveD3f2PCRsKPDBEvIdImiprYKhwLQsGqKGZC_tDi7QLeHogAC1WbFEkjeM3SJWb6kqVM4dn3qw4okyP9xtwJR78LI3wY2q01A44C9L8hzo2eie8p85biVSo1QKe4Kn5_Tza8Le1hDErdmjjprI2QfjUtJY0NYfu2y_LWx5ocJEIWdQaU-78Eavis0s0ursMWCdHYz3o47Zggz9aq135zYoWBo6StU60MUutc-tFDn9esYoFhgioHJl1tDRYNXvoVtBm-ILqbaagT8ZevCgOGWmoOPJw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 14.129,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/AxT9MvylGdH2w4uGdWsMYrZGSC7AqMXfLcUW0l7yggp6JCe_znUJAortMvxw3QRxt8ikew9dWSHLuJOn1NfKUR-w1M009SHI4NVtyIr6VvLLz9MCar5MiIZYODGaAeaiCQwkq1vlWgN-8a2eqNRA84RutpbjJW8exgVxPKPwqwIreQxhqSlJo7USRuAS9RJDQyg1CPU7O9uH0lelqmKJ8Ugklqu6LQCTMEF6Ri4ewFG3cI1ZpRA2erIbEJKlAIcdOjpUAjZLXPLcf0E1M-UtIkRLOqU8jvjQvJy6Os7_5d_OU0lIcD3gQIsoyk3yRQ41XET4NyM8C5rGxfNxjYRab8EOyMf0_rtU1DBhms3OlvRMM29yWxCo7xlGKBreN2SErG3vdWTVEZMptTi7sG1N1OIBYVmrPcG9UPTvNRzErPMm5XP7yyfLnQq-olI": {
+      "price": 14129.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 14.129,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AxT9MvylGdH2w4uGdWsMYrZGSC7AqMXfLcUW0l7yggp6JCe_znUJAortMvxw3QRxt8ikew9dWSHLuJOn1NfKUR-w1M009SHI4NVtyIr6VvLLz9MCar5MiIZYODGaAeaiCQwkq1vlWgN-8a2eqNRA84RutpbjJW8exgVxPKPwqwIreQxhqSlJo7USRuAS9RJDQyg1CPU7O9uH0lelqmKJ8Ugklqu6LQCTMEF6Ri4ewFG3cI1ZpRA2erIbEJKlAIcdOjpUAjZLXPLcf0E1M-UtIkRLOqU8jvjQvJy6Os7_5d_OU0lIcD3gQIsoyk3yRQ41XET4NyM8C5rGxfNxjYRab8EOyMf0_rtU1DBhms3OlvRMM29yWxCo7xlGKBreN2SErG3vdWTVEZMptTi7sG1N1OIBYVmrPcG9UPTvNRzErPMm5XP7yyfLnQq-olI",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 14.399,9810x|https://api.pcfinder.com.br/api/v1/r/A3jWqKFsh71rFwX0jEToLzNQAZBRuojCvfmT9m3-AeWxQVQyTKggZaqieV9bYA2l4lmUQ-SiUJo1gCpA0ieX_gyplpSXRJxbMePT7M2jHK8Ry1g81Jkykfky2p7dDBtQwYoh0kGYc9VQPnUxcsMfunps0kGSydjoXdhpl1N0WAuxiWDKWdP2rYo9UZU4Suy9Zdhj1j07_MVkaBLiucwQf9LVmNXe_uKOF23NjSZTIDeTIZGzMSJ9V4tY-jMOBYk2qfYgLeurXtxevX4__RGDU2vzhZpHzODnzygMYgygvqIgHnALde9aXrdYtg": {
+      "price": 14399.98,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti Gaming OC 16GB GDDR7 256-bitR$ 14.399,9810x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A3jWqKFsh71rFwX0jEToLzNQAZBRuojCvfmT9m3-AeWxQVQyTKggZaqieV9bYA2l4lmUQ-SiUJo1gCpA0ieX_gyplpSXRJxbMePT7M2jHK8Ry1g81Jkykfky2p7dDBtQwYoh0kGYc9VQPnUxcsMfunps0kGSydjoXdhpl1N0WAuxiWDKWdP2rYo9UZU4Suy9Zdhj1j07_MVkaBLiucwQf9LVmNXe_uKOF23NjSZTIDeTIZGzMSJ9V4tY-jMOBYk2qfYgLeurXtxevX4__RGDU2vzhZpHzODnzygMYgygvqIgHnALde9aXrdYtg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 14.399,9910x|https://api.pcfinder.com.br/api/v1/r/A7ckLXJhhCTINm0RpJ0zQIsUDgmS5lm7zMoNyxdkwtP4cR-SDd1-ZcpEPGO6B0hE_5BH59CSY5lcfcYms8UNCEbxMN6JRy8__hUWIGynBQwGcJ8ezg99M11f0kJC5HWJzFYMgriBizJeuMBTC1Ryv5OeG-XycMaTB_O7WwBI2HnPL8tPevO5ghoCjUlnb-owrmim9e-pDQ_0mCnTILydqTL5w2BNhFBLkk1_OSwCFU07uSjiakoAnuo886qFa9qsw0KHEQVj1uu1t8aqHmw6tPT0XIFQJnYCAChaeIympIptu5HcvT7yFjVJKq_4sq3Zl_fxBxXf5nM": {
+      "price": 14399.99,
+      "store": "KaBuM",
+      "title": "KabumMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 14.399,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7ckLXJhhCTINm0RpJ0zQIsUDgmS5lm7zMoNyxdkwtP4cR-SDd1-ZcpEPGO6B0hE_5BH59CSY5lcfcYms8UNCEbxMN6JRy8__hUWIGynBQwGcJ8ezg99M11f0kJC5HWJzFYMgriBizJeuMBTC1Ryv5OeG-XycMaTB_O7WwBI2HnPL8tPevO5ghoCjUlnb-owrmim9e-pDQ_0mCnTILydqTL5w2BNhFBLkk1_OSwCFU07uSjiakoAnuo886qFa9qsw0KHEQVj1uu1t8aqHmw6tPT0XIFQJnYCAChaeIympIptu5HcvT7yFjVJKq_4sq3Zl_fxBxXf5nM",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 14.739,9910x|https://api.pcfinder.com.br/api/v1/r/A3SK6RymsD9h8F2FlHsEoXZroi648hEevxz86imt1mMWeCIduK9n2byuS1WnTh4t822OdFTb7GflYSqPH48OTlm_Kg4xKIb4L46cqEsDKK-qWpzSRmsWlw_XmHrDC7xdqTUe3Ot5RnA6ldYBA8viiJBHU_EDHHcc7MkqQEUZLlUYTjqgj3x6vA8jcdCeuY0hf6gjjVguPdG2GXP8SHIL572Hob8vi9S0C-EZnJg8KNSEGe8ciLkjEu-R8hoLtsCbSPZL34a1vqT_cFQqCSsuZWFvaXDXGSmgCg_2D1EzoevLVpZYZPKjproLotsUZ98yChv5Dxl9N7auMHCYC7I": {
+      "price": 14739.99,
+      "store": "Magalu",
+      "title": "MagaluZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 14.739,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A3SK6RymsD9h8F2FlHsEoXZroi648hEevxz86imt1mMWeCIduK9n2byuS1WnTh4t822OdFTb7GflYSqPH48OTlm_Kg4xKIb4L46cqEsDKK-qWpzSRmsWlw_XmHrDC7xdqTUe3Ot5RnA6ldYBA8viiJBHU_EDHHcc7MkqQEUZLlUYTjqgj3x6vA8jcdCeuY0hf6gjjVguPdG2GXP8SHIL572Hob8vi9S0C-EZnJg8KNSEGe8ciLkjEu-R8hoLtsCbSPZL34a1vqT_cFQqCSsuZWFvaXDXGSmgCg_2D1EzoevLVpZYZPKjproLotsUZ98yChv5Dxl9N7auMHCYC7I",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Carrefour|CarrefourZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 14.777,998x|https://api.pcfinder.com.br/api/v1/r/A2Pnz0jiwkF2xKoeee_twakB7tOh2Z2LxjaOx_8VlssiJnqRALXzFo5S3EON7qlQBT9ZymVeBURRfX7ehBk-FRCWOMY3-4mrm3Mg_7HK5a29gtEhnfgF1qrv-JkTRFu2FacnkjvyWwVJPJIGxD-wt7HYpUCkFOTkeG2lcwZZRJeMXpOy9qlSukkBubZfc90jq3Ob4jU61gqQX9z68X7lhG3b18Z6_hIeNrTh499srSD8yrA8vwEb0XU-pH0AzppHhVwaPxXwLMdklrWU-40Mx5_LzSW4YXUMdGSYM9BKZr25tbP2czIld1Jm2E8": {
+      "price": 14778.0,
+      "store": "Carrefour",
+      "title": "CarrefourZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 14.777,998x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A2Pnz0jiwkF2xKoeee_twakB7tOh2Z2LxjaOx_8VlssiJnqRALXzFo5S3EON7qlQBT9ZymVeBURRfX7ehBk-FRCWOMY3-4mrm3Mg_7HK5a29gtEhnfgF1qrv-JkTRFu2FacnkjvyWwVJPJIGxD-wt7HYpUCkFOTkeG2lcwZZRJeMXpOy9qlSukkBubZfc90jq3Ob4jU61gqQX9z68X7lhG3b18Z6_hIeNrTh499srSD8yrA8vwEb0XU-pH0AzppHhVwaPxXwLMdklrWU-40Mx5_LzSW4YXUMdGSYM9BKZr25tbP2czIld1Jm2E8",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 15.129,9910x|https://api.pcfinder.com.br/api/v1/r/A-tLfd-VOzxZKRCYOpuNGjJaRExx31obvTbtObbYgEnGnxuW4wtzqOQ9rWSCQPBYv_6CE5Jh1WkJ81C2UkEGuNyq0lAZ_kva2ERn3AoLWpFqJvWMloXxsmYI4hwDyf7i-n6fNb4aDz9sw1zb9TQb0iB4Q27uQrjIrErXbAJfhuupBCYKvhd2LPw_3vosPTLiicnOWroEKwdGEZ49tDafvl2yMRM4rkm-rZtGIB-tpT92rRNYeQd73uAzaFQ_67MrF1zJdTvR2RQo6XUQW6VyABWSxLIQme0mUwIHdEzvIODfxB6NbKBPR_uT5850oEIXh9OVPaJSfOd-VXGMiFHfdk7G": {
+      "price": 15129.99,
+      "store": "Magalu",
+      "title": "MagaluZOTAC Gaming GeForce RTX 5070 Ti Solid Core OC White Edition 16GB GDDR7 256-bitR$ 15.129,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A-tLfd-VOzxZKRCYOpuNGjJaRExx31obvTbtObbYgEnGnxuW4wtzqOQ9rWSCQPBYv_6CE5Jh1WkJ81C2UkEGuNyq0lAZ_kva2ERn3AoLWpFqJvWMloXxsmYI4hwDyf7i-n6fNb4aDz9sw1zb9TQb0iB4Q27uQrjIrErXbAJfhuupBCYKvhd2LPw_3vosPTLiicnOWroEKwdGEZ49tDafvl2yMRM4rkm-rZtGIB-tpT92rRNYeQd73uAzaFQ_67MrF1zJdTvR2RQo6XUQW6VyABWSxLIQme0mUwIHdEzvIODfxB6NbKBPR_uT5850oEIXh9OVPaJSfOd-VXGMiFHfdk7G",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 15.269,9910x|https://api.pcfinder.com.br/api/v1/r/AxYsl6ijszIwPkdnODO_SK7MbybRggiWYXMvXE35qcc3lXNKRIVauUgTLpPalhuCc188G5a_EHC_CXPQuob_P0BGW5izH7QuW7xNL8e_87v4MvBkc-_y2qiGKP3Xmg6ghhSZ6svTKjwMbkwQZ4y0NmGd15XzJZkumZP3hqxsbV0LJV4V4TSUXiQxtEEJen4BCt2tCAL27VakjJsrb3riGiCZ3AYO0D7ueAhdlEN2RINod788s5oxoDpJyQ5Vp7w3AsiAHDTPvYOTbWAvKiOQMxDerh2o1KBoaDezJA": {
+      "price": 15269.99,
+      "store": "Magalu",
+      "title": "MagaluMSI GeForce RTX 5070 Ti VENTUS 3X OC 16G GDDR7R$ 15.269,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AxYsl6ijszIwPkdnODO_SK7MbybRggiWYXMvXE35qcc3lXNKRIVauUgTLpPalhuCc188G5a_EHC_CXPQuob_P0BGW5izH7QuW7xNL8e_87v4MvBkc-_y2qiGKP3Xmg6ghhSZ6svTKjwMbkwQZ4y0NmGd15XzJZkumZP3hqxsbV0LJV4V4TSUXiQxtEEJen4BCt2tCAL27VakjJsrb3riGiCZ3AYO0D7ueAhdlEN2RINod788s5oxoDpJyQ5Vp7w3AsiAHDTPvYOTbWAvKiOQMxDerh2o1KBoaDezJA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 15.355,0012x|https://api.pcfinder.com.br/api/v1/r/A_iRHDwwmEGYTf2A5sk7cRWZsCTgy1XorKmMTibFKYG88Hz9kKo53UI5UplJQdOTz1QLmgt0OBaquA5_32ch7w_M5zLqT8dqi-kdCIIIDp_tK1eJulW9LB9Fs9v4hljaihywih7BRGlxCJhmqVxoxbGt1BBE31ycQnOEVwsi6Q_8A_Ca2PYrPg": {
+      "price": 15355.0,
+      "store": "Amazon",
+      "title": "AmazonMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 15.355,0012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A_iRHDwwmEGYTf2A5sk7cRWZsCTgy1XorKmMTibFKYG88Hz9kKo53UI5UplJQdOTz1QLmgt0OBaquA5_32ch7w_M5zLqT8dqi-kdCIIIDp_tK1eJulW9LB9Fs9v4hljaihywih7BRGlxCJhmqVxoxbGt1BBE31ycQnOEVwsi6Q_8A_Ca2PYrPg",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonMSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7R$ 15.355,0012x|https://api.pcfinder.com.br/api/v1/r/AwjxRIum8ceGwqqg9YMahm1MwBNdDE0ho00QxbvRzhgNaSRplMBOC9BINYs8P_aSdD7flvuRhuEfI-k49SCUC9mxLpjpi7cJzCscKwJYwOEXylAVHWF-JmqemBCUZZPWFcO3uW2s1MAfOmnaQKp557oFmck29QTaMLFSbdwTSy4-C1Tg9HuqTFU8mbYC0Ts": {
+      "price": 15355.0,
+      "store": "Amazon",
+      "title": "AmazonMSI GeForce RTX 5070 Ti 16G VENTUS 3X OC EDITION 256-bit GDDR7R$ 15.355,0012x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AwjxRIum8ceGwqqg9YMahm1MwBNdDE0ho00QxbvRzhgNaSRplMBOC9BINYs8P_aSdD7flvuRhuEfI-k49SCUC9mxLpjpi7cJzCscKwJYwOEXylAVHWF-JmqemBCUZZPWFcO3uW2s1MAfOmnaQKp557oFmck29QTaMLFSbdwTSy4-C1Tg9HuqTFU8mbYC0Ts",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Amazon|AmazonGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 15.999,9912x|https://api.pcfinder.com.br/api/v1/r/A9ZIsaugUzyRRWD5eAO1GZohYrQnGYofn3-TvZt83f8uHAGT8WixY_8IveTbfxFuwhjZfE9WmO0JjRhUYTIhqrTRmkdp-qEHYLXAQXzEXxccYhhA2flR9HJvkHMVcE4b7BSTvItb8BvslItczU_LUZKuMyjbK14XFLQ0UJch47TEpEWykA": {
+      "price": 15999.99,
+      "store": "Amazon",
+      "title": "AmazonGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 15.999,9912x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9ZIsaugUzyRRWD5eAO1GZohYrQnGYofn3-TvZt83f8uHAGT8WixY_8IveTbfxFuwhjZfE9WmO0JjRhUYTIhqrTRmkdp-qEHYLXAQXzEXxccYhhA2flR9HJvkHMVcE4b7BSTvItb8BvslItczU_LUZKuMyjbK14XFLQ0UJch47TEpEWykA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 16.107,6410x|https://api.pcfinder.com.br/api/v1/r/AxBXaqGsshVJtHRzyiSBT0sHqRwyj3RWJ0zIlkj6KMK1k3jh4UGt9r4PVrpfHh6NxXp5uS4qbu-iDJJKv6-2oL54SmO4xn3NI_7FH8MezlSsNbJk5LPdPOW8VdMBqfoS0VB5y3jk8-Csqic2ejbi0Im1dYzxF9QxZ5aK-gJLKCsrobuPuGiPHEwe8Yn8E5bBjTlsX_Chhij8SUjDKH2hjoiewylTfDNAVBg54_7NqdVXygg7vbKuFgPmQiLAC5S8XpXGaUBdq-SZ8yyQL2dFSWHmMBaZjK6T965YbVw": {
+      "price": 16107.64,
+      "store": "KaBuM",
+      "title": "KabumGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 16.107,6410x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AxBXaqGsshVJtHRzyiSBT0sHqRwyj3RWJ0zIlkj6KMK1k3jh4UGt9r4PVrpfHh6NxXp5uS4qbu-iDJJKv6-2oL54SmO4xn3NI_7FH8MezlSsNbJk5LPdPOW8VdMBqfoS0VB5y3jk8-Csqic2ejbi0Im1dYzxF9QxZ5aK-gJLKCsrobuPuGiPHEwe8Yn8E5bBjTlsX_Chhij8SUjDKH2hjoiewylTfDNAVBg54_7NqdVXygg7vbKuFgPmQiLAC5S8XpXGaUBdq-SZ8yyQL2dFSWHmMBaZjK6T965YbVw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Livestore Online|Livestore OnlineMSI GeForce RTX 5070 Ti MLG Edition OC 16GB 256-bit GDDR7R$ 16.669,00Somente à vistaSomente à vistaVer na loja|https://api.pcfinder.com.br/api/v1/r/A7IJcSRztVkVsFoheL4C4yMIPjNTjXSYtJJgexUcnDvA03kMGjwD1ZD5cpVP1dQAA3Y0RKAnf8_Cf1mWXI6qxMxLqqp0504l8WiFCIp94naTVNCbURkhT5yWcEZ8Wjb9CamGHMVCd1qxm8ulGBAumJTEpCPt50LMLvOAw7eLFvijjFWJmvLixIKi6gu5w0WXArvvQ3LdNAGFjJSQpr2aUIMxfQehlCYpu6T_uD_TncdwW6YleYNUEFmaCY2cFHEbUBxtjtwmbJgnlHmd7iSLnfSwmvSjdi0zi0TvaOwqBPcTa-WS-7HotRuoRlkUE3YjRUp3fsSyKfc0WO4dBmmrsIqZd0AE1XhfhpLAoYvEfCWUdDQAXpXzezOYah9HwzqHEAgx8FJ53mkS3flk6S7aumi56D7Wi9UtjEZAKK2dUsi2iA": {
+      "price": 16669.0,
+      "store": "Livestore Online",
+      "title": "Livestore OnlineMSI GeForce RTX 5070 Ti MLG Edition OC 16GB 256-bit GDDR7R$ 16.669,00Somente à vistaSomente à vistaVer na loja",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7IJcSRztVkVsFoheL4C4yMIPjNTjXSYtJJgexUcnDvA03kMGjwD1ZD5cpVP1dQAA3Y0RKAnf8_Cf1mWXI6qxMxLqqp0504l8WiFCIp94naTVNCbURkhT5yWcEZ8Wjb9CamGHMVCd1qxm8ulGBAumJTEpCPt50LMLvOAw7eLFvijjFWJmvLixIKi6gu5w0WXArvvQ3LdNAGFjJSQpr2aUIMxfQehlCYpu6T_uD_TncdwW6YleYNUEFmaCY2cFHEbUBxtjtwmbJgnlHmd7iSLnfSwmvSjdi0zi0TvaOwqBPcTa-WS-7HotRuoRlkUE3YjRUp3fsSyKfc0WO4dBmmrsIqZd0AE1XhfhpLAoYvEfCWUdDQAXpXzezOYah9HwzqHEAgx8FJ53mkS3flk6S7aumi56D7Wi9UtjEZAKK2dUsi2iA",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Carrefour|CarrefourGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 17.055,148x|https://api.pcfinder.com.br/api/v1/r/AzewAMG434HzRTyGHKSDeQSjpJ9Luld0INHUQoMZl5qoUZ2xsHP-XdGR4n2VsBG_7YRDIIcCgEBryD03roOdLHvTRF_pOxfi7qZfgSb7sAit2tCiwOqG6pDQsqdVxDyqirnXWrcFh0XvGouCc75eGZudlpXIOQadd5Fu1YedtwaULYsKiSxnkzbcHtNxI8yU3ETZwsK4Y02O5T5EppOt3dA-nfEVgHcF5oS8xhyCooeeg3PaX--D5wqgjfCAsFCKEqS_rRuJF6vi7RstV5k": {
+      "price": 17055.15,
+      "store": "Carrefour",
+      "title": "CarrefourGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 17.055,148x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AzewAMG434HzRTyGHKSDeQSjpJ9Luld0INHUQoMZl5qoUZ2xsHP-XdGR4n2VsBG_7YRDIIcCgEBryD03roOdLHvTRF_pOxfi7qZfgSb7sAit2tCiwOqG6pDQsqdVxDyqirnXWrcFh0XvGouCc75eGZudlpXIOQadd5Fu1YedtwaULYsKiSxnkzbcHtNxI8yU3ETZwsK4Y02O5T5EppOt3dA-nfEVgHcF5oS8xhyCooeeg3PaX--D5wqgjfCAsFCKEqS_rRuJF6vi7RstV5k",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 17.055,1410x|https://api.pcfinder.com.br/api/v1/r/Ax1bvogwpzjPoBkt2Xh0oLgTIr-39jGFZzopbS9vHZTZPymPvm6gt314nArXOkerptYIRq7qPMwn3cTdK9CNXAEzmozVrBbQP7tNFj69cIeGDgPpaw98_OTKGpiIW_vMo1LJjJ_A6vZPcDeDQPgjMJ2UMbIBZqXi1JOpKGlEiI8_j94mYSu9bXLiYcNeSaI95xQoipA5C1NVoGicbrZW-uIYNg4dUI0UUrq6q467dkZDLE9CJExlyi46OyNO1vYpAhiar8Z4C08gxxqsxjYeifw5UAVRi_55CS9RDf9Uj4jyNGE": {
+      "price": 17055.14,
+      "store": "Magalu",
+      "title": "MagaluGigabyte GeForce RTX 5070 Ti Aero OC 16GB GDDR7 256-bitR$ 17.055,1410x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/Ax1bvogwpzjPoBkt2Xh0oLgTIr-39jGFZzopbS9vHZTZPymPvm6gt314nArXOkerptYIRq7qPMwn3cTdK9CNXAEzmozVrBbQP7tNFj69cIeGDgPpaw98_OTKGpiIW_vMo1LJjJ_A6vZPcDeDQPgjMJ2UMbIBZqXi1JOpKGlEiI8_j94mYSu9bXLiYcNeSaI95xQoipA5C1NVoGicbrZW-uIYNg4dUI0UUrq6q467dkZDLE9CJExlyi46OyNO1vYpAhiar8Z4C08gxxqsxjYeifw5UAVRi_55CS9RDf9Uj4jyNGE",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Carrefour|CarrefourZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 17.727,508x|https://api.pcfinder.com.br/api/v1/r/A9icRKGrhUaynUsUUy6GsCZUkg_Dd4PgJBHJDAUigJO3-8eBiC_UTnbK4Ho67cE2lhvdD7y81DtR1QqlR2udUcV8yOEhVHwQIFaGLbmfFZYoA43eAkywfTuADx7OGbiLVOubjqKjr0FTKPmLIuUiqGOISlTM3abfKhZaZHYIT7Q7p0wz-ClwCvGVXUwYCjiFb0EGUX7g73E8M5vdY5lCuHoP6B5IEMLY_YDuYpOUn_jw-B8Ov_8hlfNLrYEPDUBQ5vx3-TBlRXPRsTxxKu_3V7eTRqMdShRYFVujAMaxFJRdSgoxqfaAosD5": {
+      "price": 17727.51,
+      "store": "Carrefour",
+      "title": "CarrefourZOTAC Gaming GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bitR$ 17.727,508x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A9icRKGrhUaynUsUUy6GsCZUkg_Dd4PgJBHJDAUigJO3-8eBiC_UTnbK4Ho67cE2lhvdD7y81DtR1QqlR2udUcV8yOEhVHwQIFaGLbmfFZYoA43eAkywfTuADx7OGbiLVOubjqKjr0FTKPmLIuUiqGOISlTM3abfKhZaZHYIT7Q7p0wz-ClwCvGVXUwYCjiFb0EGUX7g73E8M5vdY5lCuHoP6B5IEMLY_YDuYpOUn_jw-B8Ov_8hlfNLrYEPDUBQ5vx3-TBlRXPRsTxxKu_3V7eTRqMdShRYFVujAMaxFJRdSgoxqfaAosD5",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 17.999,9910x|https://api.pcfinder.com.br/api/v1/r/A0BL-VqTh8DbGyVgx4_7SVE5lf_p85FUfEAIjO7CBsAGYhPAnmWahmdKe453B3Ag-ZrZChtZp5ra9cdZW9zQrVq9g4tzLG2rltEeUHsTbLBXt-HfxkLasARHIVqzhTyRpu54eZKk-oxGOympy7DrLIWfSjPjDQx1LaqV1x6yRj9I66awejiqUMVbBn7maevDvQEhNfaHW5YltaUVJuSi3fDKa_aEj8LTeSfmpu6-z7lQtt77zd6ap5EuCVMz3ckW9Wd0aTHMIU6fDD4fBnATSJapk1UVLSpm1GYrGW-8fw": {
+      "price": 17999.99,
+      "store": "KaBuM",
+      "title": "KabumGigabyte Aorus GeForce RTX 5070 Ti Master 16GB GDDR7R$ 17.999,9910x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A0BL-VqTh8DbGyVgx4_7SVE5lf_p85FUfEAIjO7CBsAGYhPAnmWahmdKe453B3Ag-ZrZChtZp5ra9cdZW9zQrVq9g4tzLG2rltEeUHsTbLBXt-HfxkLasARHIVqzhTyRpu54eZKk-oxGOympy7DrLIWfSjPjDQx1LaqV1x6yRj9I66awejiqUMVbBn7maevDvQEhNfaHW5YltaUVJuSi3fDKa_aEj8LTeSfmpu6-z7lQtt77zd6ap5EuCVMz3ckW9Wd0aTHMIU6fDD4fBnATSJapk1UVLSpm1GYrGW-8fw",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 18.005,1310x|https://api.pcfinder.com.br/api/v1/r/A7NXr-uQaCssQVOWTEmIqafyJWi4SOmTB5aE9deusf4CtlhSDZoYXDvgbTKvC_IrwFWSNKG_bjeA_gSB4fy8GN0mIB_7tz0wlyshs-BRhX1-sDRW44RTfTbqPSTPvx6croZDVCBhAB3HvGoOxtXrD6k76PdcAdlni_MIIBNM-y6ax6JguCYAYOlFJMgikBV42M5wyyL84qVmFCdI1zNFfAdrqjgT1_CTm3t_rOQAFgpGRHqiHHV5FYMMN7PJ-e8FL9ywrguTTfl0hNjxxXDnZvWxig": {
+      "price": 18005.13,
+      "store": "KaBuM",
+      "title": "KabumMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 18.005,1310x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7NXr-uQaCssQVOWTEmIqafyJWi4SOmTB5aE9deusf4CtlhSDZoYXDvgbTKvC_IrwFWSNKG_bjeA_gSB4fy8GN0mIB_7tz0wlyshs-BRhX1-sDRW44RTfTbqPSTPvx6croZDVCBhAB3HvGoOxtXrD6k76PdcAdlni_MIIBNM-y6ax6JguCYAYOlFJMgikBV42M5wyyL84qVmFCdI1zNFfAdrqjgT1_CTm3t_rOQAFgpGRHqiHHV5FYMMN7PJ-e8FL9ywrguTTfl0hNjxxXDnZvWxig",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 18.146,7010x|https://api.pcfinder.com.br/api/v1/r/A7TKIcu7tvxQmK2SXH3Hzr0EGiqxgtUacsL1U28cWG93UExUPJgJfQhO8NYiQ7lN4ErX8VUR6dtg5jJEWw0tpGY48UPci75-kVfj288zcvf8pMNFkU4jfBzBy-h2sbUj1mTkh2eBS3bLu09ZAwsdpiRfNe44CDrN9RZuTpfO7ha4FiEytB1b4s7coy4kJorjgqD3tzRzSS9JqeGB2GKzleVg2z25DJQ1gv42Dd_2iR7a2y7lyEKZr6AaMferco3LzCC2Krd0Ytw3D9NNA8ExNBO5k7qbOJiqicqDlGXL": {
+      "price": 18146.7,
+      "store": "KaBuM",
+      "title": "KabumASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 18.146,7010x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7TKIcu7tvxQmK2SXH3Hzr0EGiqxgtUacsL1U28cWG93UExUPJgJfQhO8NYiQ7lN4ErX8VUR6dtg5jJEWw0tpGY48UPci75-kVfj288zcvf8pMNFkU4jfBzBy-h2sbUj1mTkh2eBS3bLu09ZAwsdpiRfNe44CDrN9RZuTpfO7ha4FiEytB1b4s7coy4kJorjgqD3tzRzSS9JqeGB2GKzleVg2z25DJQ1gv42Dd_2iR7a2y7lyEKZr6AaMferco3LzCC2Krd0Ytw3D9NNA8ExNBO5k7qbOJiqicqDlGXL",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 18.146,7010x|https://api.pcfinder.com.br/api/v1/r/A5oxxtxl3gf-blZrZXUe3kN1rGZONcCZZNcUvp0uLq2FDTL4jFX776K4aK2_O04UPm5tvh8vjF4ZgGQlcafJfvlWbsdA6rSp_YWp6LDDZL2W_RTrrSmx0B3QDmRJmxGJaDIWPxG55romasfs4Mlx3aryur7TXlB3kHKP5G0NPlI_956vCQG3WKG8SS8UQaFGWY5dLkXZWyEm-BXTluptfULGoX38hsRVLHBtpcv-uMXY9McBeG6ey6qSyhwmBjsX3CWUwI8PahdlWAUqdQdxiQ": {
+      "price": 18146.7,
+      "store": "Magalu",
+      "title": "MagaluASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7R$ 18.146,7010x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A5oxxtxl3gf-blZrZXUe3kN1rGZONcCZZNcUvp0uLq2FDTL4jFX776K4aK2_O04UPm5tvh8vjF4ZgGQlcafJfvlWbsdA6rSp_YWp6LDDZL2W_RTrrSmx0B3QDmRJmxGJaDIWPxG55romasfs4Mlx3aryur7TXlB3kHKP5G0NPlI_956vCQG3WKG8SS8UQaFGWY5dLkXZWyEm-BXTluptfULGoX38hsRVLHBtpcv-uMXY9McBeG6ey6qSyhwmBjsX3CWUwI8PahdlWAUqdQdxiQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 18.339,7510x|https://api.pcfinder.com.br/api/v1/r/A4OJL2o8RXhZXiiqNNkMCiBFFj5S1vd1l0bf9iBjzA7_gwI3KnHNhJizEoZF9_uqFTWndcplGjV_lpFoMC0hpDbhB9YKO6BUVQLES1VuV0twPHJXYISdsPjLDxzCbOqoHFX1BdbqLabF4kjRMnKYeuwUFec6SVLlMTwder5_BvUfxCzKUtgTBiLWfd1YWCZNjELQ2WLvTbbwxMCkd56iZD-jtGk3dzF7yYtEFNI5z8093_i5_cK7dQw8pSoMyON-gfJ6VPeV7963sKK2TEr7gZ-_1WytnwhyGOQ": {
+      "price": 18339.75,
+      "store": "KaBuM",
+      "title": "KabumMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 18.339,7510x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A4OJL2o8RXhZXiiqNNkMCiBFFj5S1vd1l0bf9iBjzA7_gwI3KnHNhJizEoZF9_uqFTWndcplGjV_lpFoMC0hpDbhB9YKO6BUVQLES1VuV0twPHJXYISdsPjLDxzCbOqoHFX1BdbqLabF4kjRMnKYeuwUFec6SVLlMTwder5_BvUfxCzKUtgTBiLWfd1YWCZNjELQ2WLvTbbwxMCkd56iZD-jtGk3dzF7yYtEFNI5z8093_i5_cK7dQw8pSoMyON-gfJ6VPeV7963sKK2TEr7gZ-_1WytnwhyGOQ",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 18.339,7510x|https://api.pcfinder.com.br/api/v1/r/A1BHRYq8rJNp50nWt4fvU7oUp316EubdSAta9xhIcaD241Y2m9P-JVTNxv59o2wuTYfYBO8zswndUWdfvNjE9pDDqJk6RRVcg8A72B0cXZijMxbLrne-h-Z0qOU8pxUb3D-wYL97xo3JwFFadWLBLoX4cIXREUJSDIph763CUFS-VP6B9Bgq0LmxeVTtUuhai6oMc3lmP6If-OGVrWvV63YuB7FV8KIaMf1toJswyBKDBVfURy2t3grL-sHKbCeYxZMWqcHPeUFG_HMcHbGP9xCVaTfdEO8S9Q": {
+      "price": 18339.75,
+      "store": "Magalu",
+      "title": "MagaluMSI GeForce RTX 5070 Ti 16G Gaming Trio OC 256-bit GDDR7R$ 18.339,7510x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A1BHRYq8rJNp50nWt4fvU7oUp316EubdSAta9xhIcaD241Y2m9P-JVTNxv59o2wuTYfYBO8zswndUWdfvNjE9pDDqJk6RRVcg8A72B0cXZijMxbLrne-h-Z0qOU8pxUb3D-wYL97xo3JwFFadWLBLoX4cIXREUJSDIph763CUFS-VP6B9Bgq0LmxeVTtUuhai6oMc3lmP6If-OGVrWvV63YuB7FV8KIaMf1toJswyBKDBVfURy2t3grL-sHKbCeYxZMWqcHPeUFG_HMcHbGP9xCVaTfdEO8S9Q",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "KaBuM|KabumMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 18.648,6310x|https://api.pcfinder.com.br/api/v1/r/AyCQJLCbxtePZ9k4yYqOJ1nswhmRrZLbcmcp3UebsZewGq1njo78t0qwCZV8vaMGKpHLYFEECEuZazJOYtdT0EQGesN7r2xnllTKD3VxMi52TQ6SCTm81tFEdwzsFKwvLpr85zUFaPq2NzgRqUSs1NBX-j9wdCff3VUuymW8d1yYszCmo6tEebGB1K76gJvOAuO59YwG8dE8RT5zotOF6Wu1kph0gqa3v0cXazrcFaYGZkNaRNkE9Pm3uC12N2ug4dS83I6QscY": {
+      "price": 18648.63,
+      "store": "KaBuM",
+      "title": "KabumMSI GeForce RTX 5070 Ti SHADOW 3X OC 256-bit 16GB GDDR7R$ 18.648,6310x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/AyCQJLCbxtePZ9k4yYqOJ1nswhmRrZLbcmcp3UebsZewGq1njo78t0qwCZV8vaMGKpHLYFEECEuZazJOYtdT0EQGesN7r2xnllTKD3VxMi52TQ6SCTm81tFEdwzsFKwvLpr85zUFaPq2NzgRqUSs1NBX-j9wdCff3VUuymW8d1yYszCmo6tEebGB1K76gJvOAuO59YwG8dE8RT5zotOF6Wu1kph0gqa3v0cXazrcFaYGZkNaRNkE9Pm3uC12N2ug4dS83I6QscY",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
+    },
+    "Magalu|MagaluMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 19.948,5010x|https://api.pcfinder.com.br/api/v1/r/A7RIek1339XotOgCYU-eULKEvCyIz6lIeONMhX8N68nB5GdA6iGpNSyWf1-hDSqBVRWfQBj-x9XLDRxPwoMpQuS_V_G59MHVtNuASAc5MPgEe_deTiaYpFHP9mlPcxG3cDcGBHjNxg4Feh6-sl02z2hJvPyddawKbx-tR3pyGMrx_Slbh32eS98j8IO-CjvOxVsoCkNzN4at9-xvrGN8mpVxSVNCL97TK5u7eNAYgr1FO4MqhqMf9Xauh-u-1w7KnxaqmFkVrHuvdBwZ10auvNx84Mp38xKLCXhyaZLXFhbU": {
+      "price": 19948.5,
+      "store": "Magalu",
+      "title": "MagaluMSI GeForce RTX 5070 Ti 16G Frieren Edition OC 256-bit GDDR7R$ 19.948,5010x",
+      "url": "https://api.pcfinder.com.br/api/v1/r/A7RIek1339XotOgCYU-eULKEvCyIz6lIeONMhX8N68nB5GdA6iGpNSyWf1-hDSqBVRWfQBj-x9XLDRxPwoMpQuS_V_G59MHVtNuASAc5MPgEe_deTiaYpFHP9mlPcxG3cDcGBHjNxg4Feh6-sl02z2hJvPyddawKbx-tR3pyGMrx_Slbh32eS98j8IO-CjvOxVsoCkNzN4at9-xvrGN8mpVxSVNCL97TK5u7eNAYgr1FO4MqhqMf9Xauh-u-1w7KnxaqmFkVrHuvdBwZ10auvNx84Mp38xKLCXhyaZLXFhbU",
+      "payment": "preço anunciado",
+      "last_seen": "2026-11-22T13:21:30.243930+00:00"
     }
   },
-  "last_check_utc": "2026-11-22T13:11:33.913859+00:00"
+  "last_check_utc": "2026-11-22T13:21:30.243930+00:00"
 }
