@@ -44,7 +44,7 @@ O mesmo disparo do cron-job.org executa também `price_monitor.py`, a cada 10 mi
 - Fontes: PCFinder (comparador de ofertas) e páginas próprias de KaBuM!, TNT Info, Patoloco, Pichau e Terabyte.
 - Outras lojas que podem aparecer no comparador: Amazon, Microgem, Guerra Digital, Setup Ninja, Login, Magalu, ITX Gamer, entre outras.
 - Alertas: envia no Telegram quando uma oferta abaixo do limite aparece pela primeira vez ou quando o preço cai. Não repete o mesmo alerta a cada execução.
-- O histórico de preços/alertas fica em `price_state.json`.
+- O histórico compacto de preços/alertas fica no cache do GitHub Actions (o arquivo local `price_state.json` é ignorado pelo Git e não é versionado). O histórico é limitado a 500 registros e 30 dias.
 
 
 ### Fontes da pesquisa RTX 5070 Ti
