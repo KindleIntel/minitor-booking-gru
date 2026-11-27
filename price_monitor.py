@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import re
@@ -282,15 +283,28 @@ def same_shop_host(source_url, product_url, store):
     return a == b
 
 
+def state_key(offer):
+    # Chave curta e estável: nunca grava URLs de afiliados gigantes no histórico.
+    identity = "|".join((
+        offer.get("store", ""),
+        re.sub(r"\W+", "", offer.get("title", "").lower()),
+        offer.get("url", "")[:2000],
+    ))
+    return hashlib.sha256(identity.encode("utf-8")).hexdigest()
+
+
 def main():
-    old = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {"offers": {}}
+    old = {"offers": {}}
+    if STATE_FILE.exists():
+        try:
+            # Protege a execução contra histórico antigo corrompido ou excessivamente grande.
+            if STATE_FILE.stat().st_size <= 2_000_000:
+                old = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+            else:
+                print(f"HISTORICO_ANTIGO_IGNORADO_BYTES: {STATE_FILE.stat().st_size}")
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"HISTORICO_ANTIGO_IGNORADO: {type(exc).__name__}")
     old_offers = old.get("offers", {})
-    # Descarta entradas antigas claramente inválidas, como valores de parcelas.
-    old_offers = {
-        key: value for key, value in old_offers.items()
-        if 2500 <= float(value.get("price", 0) or 0) < 20000
-        and is_target_title(value.get("title", ""))
-    }
     current = {}
 
     with sync_playwright() as p:
@@ -307,14 +321,14 @@ def main():
             discovered = extract_pcfinder(page)
             print(f"PCFINDER_OFERTAS_LIDAS: {len(discovered)}")
             for offer in discovered:
-                key = f"{offer['store']}|{offer['title']}|{offer['url']}"
+                key = state_key(offer)
                 current[key] = offer
         except Exception as exc:
             print(f"ERRO_PCFINDER: {type(exc).__name__}: {exc}")
 
         for store, source_url in DIRECT_SOURCES:
             for offer in extract_direct_source(page, store, source_url):
-                key = f"{offer['store']}|{offer['title']}|{offer['url']}"
+                key = state_key(offer)
                 current[key] = offer
 
         browser.close()
@@ -354,29 +368,38 @@ def main():
     else:
         print("SEM_NOVAS_OFERTAS_ABAIXO_DO_LIMITE")
 
-    # Conserva ofertas por até 30 dias para não gerar alertas duplicados em falhas transitórias.
+    # Histórico mínimo: guarda somente preço e data, com chave SHA-256 curta.
+    # Limita a 500 registros e 30 dias, evitando crescimento ilimitado do arquivo.
     now = datetime.now(timezone.utc)
-    merged = dict(old_offers)
-    for key, offer in current.items():
-        merged[key] = {
-            "price": offer["price"], "store": offer["store"], "title": offer["title"],
-            "url": offer["url"], "payment": offer.get("payment", ""),
-            "last_seen": now.isoformat(),
-        }
+    merged = {}
     cutoff = now - timedelta(days=30)
-    kept = {}
-    for key, value in merged.items():
+    for key, value in old_offers.items():
         try:
             last_seen = datetime.fromisoformat(value.get("last_seen", old.get("last_check_utc", now.isoformat())))
-            if last_seen >= cutoff:
-                kept[key] = value
+            price = float(value.get("price", 0))
+            if last_seen >= cutoff and 2500 <= price < 20000:
+                merged[key[:64]] = {"price": round(price, 2), "last_seen": last_seen.isoformat()}
         except Exception:
-            kept[key] = value
+            continue
+
+    for key, offer in current.items():
+        merged[key] = {"price": offer["price"], "last_seen": now.isoformat()}
+
+    # Mantém apenas os 500 registros mais recentes.
+    kept = dict(sorted(
+        merged.items(),
+        key=lambda item: item[1].get("last_seen", ""),
+        reverse=True,
+    )[:500])
 
     old["offers"] = kept
     old["last_check_utc"] = now.isoformat()
-    STATE_FILE.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    STATE_FILE.write_text(
+        json.dumps(old, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
     print(f"OFERTAS_MONITORADAS_TOTAL: {len(current)}")
+    print(f"HISTORICO_BYTES: {STATE_FILE.stat().st_size}")
 
 
 if __name__ == "__main__":
